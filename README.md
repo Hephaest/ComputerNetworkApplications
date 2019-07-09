@@ -530,7 +530,7 @@ in entity body.
 HTTP response message back.
 
 The simplified process is shown as follows.
-<p align="center"><img src ="images/f6.jpg" width = "600px"></p>
+<p align="center"><img src ="images/f6.png"></p>
 
 ## Function Implementations
 Based on the above principles, firstly, create a socket which could support IPv4 and bind to a
@@ -717,7 +717,7 @@ def start_listen(tcp_socket, client_ip, client_port):
 ```
 ## Result
 ### Browser Test
-<p align="center"><img src ="images/f7.jpg" width = "600px"></p>
+<p align="center"><img src ="images/f7.jpg"></p>
 
 ### WebProxy.py
 ```

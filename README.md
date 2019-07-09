@@ -320,6 +320,8 @@ disk. If it successfully finds the object in the hard disk, it sent the object b
 appropriate header (which will contain the Status-Code 200). Else, it will send the "Not Found"
 web page to the client with HTTP response message (which will contain 404 Not Found" status
 line)". HTTP request and response message format are shown in Figure 5.(a) and Figure 5.(b).
+<p align="center"><img src ="images/f4.jpg"></p>
+
 ## Function Implementations
 Based on the above principles, firstly, create a socket which could support IPv4 and bind to a
 high numbered port above 1024. The Web Server is expected to listen to 5 requests at the same

@@ -203,6 +203,8 @@ to measure latency between the host and each hop along the route to a destinatio
 traceroute can find the routers between the source and destination host and how long it takes to
 reach each router.
 ## Principle
+<p align="center"><img src ="images/f3.jpg"></p>
+
 As Figure is shown, source host uses an ICMP echo request message, but with an important modification:
 the **Time To Live** (**TTL**) value is initially set to 1. This ensures that we get a response from
 the first hop. The TTL counter is decremented once the message arrives router. When TTL reaches

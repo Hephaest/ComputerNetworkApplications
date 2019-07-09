@@ -1,0 +1,629 @@
+HTTP/1.1 404 Not Found
+Date: Sat, 24 Nov 2018 07:54:22 GMT
+Server: Apache
+Vary: User-Agent,Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+1f58
+
+
+
+
+<!doctype html>
+<!-- Page Layout: Foundation no 2 nav -->
+
+
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:url" content="http://www.lancaster.ac.uk/errors/404/"/>
+    <meta property="og:title" content="404" />
+
+    
+    
+    
+    
+    <link rel="canonical" href="http://www.lancaster.ac.uk/errors/404/"/>
+    <title>404 | Lancaster University</title>
+
+    <!-- Siteimprove hook -->
+    <meta name="PageID" content="1422" />
+
+    
+    <!-- meta description -->
+    
+    <!-- css : app.css -->
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/media/wdp/style-assets/css/foundation/app.5.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/media/lancaster-university/style-assets/css/font-face.css" /> <!-- fonts : font-face.css  -->
+    <script type="text/javascript" src="/media/wdp/style-assets/javascript/foundation/loadScript.js"></script> <!-- loadscript -->
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+    <!-- favicon -->
+    <link rel="shortcut icon"  href="/media/lancaster-university/style-assets/images/favicon.ico">
+<link rel="apple-touch-icon"  href="/media/lancaster-university/style-assets/images/apple-touch-icon.png">
+    <!-- included head code -->
+    <!-- Global Included Head Code --><script>window.jQuery || document.write('<script src="/media/wdp/style-assets/javascript/lib/thirdparty/jquery/jquery-1.12.4.min.js"><\/script>')</script><script src="//cdn.polyfill.io/v2/polyfill.min.js?features=Promise,fetch,Element.prototype.classlist&flags=gated"></script><script src='/media/wdp/style-assets/javascript/scriptHandler.min.js'></script>
+<script>
+  var scriptHandler = new ScriptHandler();
+</script><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KHTVZS');</script>
+<!-- End Google Tag Manager -->    <!-- Local Included Head Code -->
+    <!-- local highlight theme -->
+    
+
+    <!--[if lt IE 8]>
+    <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+    <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+    <script type="text/javascript" src="/media/wdp/style-assets/javascript/foundation/rem.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="no-nav">
+
+<!-- included body code -->
+<!-- Global Included Body Code --><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHTVZS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><!-- Lazy Load scripts -->
+<script src='/media/wdp/style-assets/javascript/jquery.unveil.min.js'></script>
+<script async src='/media/wdp/style-assets/javascript/lazy-load.bundle.js'></script><!-- invisible links -->
+<div class="invisible-links">
+    <a href="#main">Skip to content</a>
+</div>
+<!-- Local Included Body Code -->
+<div class="foundation-container">
+  <div class="site-container">
+    <!-- Main Menu header -->
+    <!-- foundation header -->
+<header>
+
+
+  <!-- LU top-bar -->
+  <div id="lu-bar" class="hide-for-large">
+
+    <div class="navigation row">
+      <div class="columns small-10">
+      <a class="btn-home btn-toolbar-item" title="Link: Home" href="/"><span aria-hidden="true">
+      <img src='/media/wdp/style-assets/images/foundation/lu-shield.svg' alt="Lancaster University shield" class="lu-home"></span><span class="show-for-sr">Lancaster University Home Page</span><span class="core-site-title">Lancaster University</span></a>
+      </div>
+
+      <div class="columns small-2">
+        <a href="#" data-toggle="top-bar-search" class="float-right hide-for-large"><span aria-hidden="true">
+           <svg viewBox="0 0 100 100" class="search-icon">
+                <path  fill-rule="evenodd" d="M42.117,12.246 C50.1209,12.246 57.797,15.4257 63.453,21.0858 C69.1132,26.742 72.2928,34.4178 72.2928,42.4218 C72.2928,50.4258 69.1131,58.1018 63.453,63.7578 C57.7968,69.418 50.121,72.5976 42.117,72.5976 C34.1131,72.5976 26.437,69.4179 20.781,63.7578 C15.1208,58.1016 11.9412,50.4258 11.9412,42.4218 C11.9412,34.4178 15.1209,26.7418 20.781,21.0858 C26.4372,15.4256 34.113,12.246 42.117,12.246 L42.117,12.246 Z M76.0828827,67.3362833 C82.3527829,58.7859894 85.2617455,48.0434678 83.9173,37.22271 C82.0618,22.28871 72.3743,9.47671 58.5153,3.61771 L58.51139,3.61771 C53.32389,1.41851 47.74139,0.28961 42.10539,0.29741 L42.117,0.305 C29.058,0.30891 16.742,6.3675 8.769001,16.707 C0.7924008,27.047 -1.933999,40.5 1.382301,53.129 C4.698701,65.758 13.6833,76.137 25.7103,81.223 L25.7103,81.22691 C39.5733,87.08631 55.5113,85.10191 67.5153,76.02771 C67.5852345,75.9748392 67.6549736,75.9217748 67.724517,75.8685177 L91.555,99.6990032 L100.0003,91.253703 L76.0828827,67.3362833 Z">
+                </path>
+            </svg>
+        </span><span class="show-for-sr">Search</span></a>
+      </div>
+    </div>
+
+  <!-- mobile search panel -->
+  <div class="search-bar row column hide-for-large hide" data-toggler=".hide" id="top-bar-search">
+    
+      <form role="search" action="/search/" method="get">
+        <label for="f-search-input-mobile" class="show-for-sr">Site search</label>
+        <input class="input-field search-field" name="q" type="search" placeholder="Search this site..." id="f-search-input-mobile">
+        <button type="submit" class="button">Search</button>
+      </form>
+    
+  </div>  <!-- end mobile search panel -->
+
+
+  </div> <!-- end LU top-bar -->
+
+  <!-- primary navigation -->
+  <nav id="primary-nav">
+    <div class="row" data-equalizer>
+
+      <div class="columns small-12 medium-12 large-4">
+        <div class="row">
+          <div class="columns small-8 large-12"  data-equalizer-watch>
+            <a href="/"  class="ir">
+              <!-- Header Logo -->
+              <div class="logo">
+                <div class="logo-wrapper">
+                  <img
+    src='/media/wdp/style-assets/images/logos/lu-logo.svg'
+    alt='Lancaster University'
+    class=' '
+    itemprop="logo"
+/>
+
+
+                </div>
+              </div>
+            </a>
+          </div>
+
+                        <div class="hide-for-large columns small-4 menu-toggle">
+                <span data-responsive-toggle="primary-nav-tabs" data-hide-for="large" class="float-right">
+                  <button data-toggle class="button">
+                     <svg class="hide-for-large" viewBox="0 0 190.8 184.2">
+                       <g>
+                         <rect x="1.2" y="66.1" class="st0" width="188.5" height="45.5"/>
+                         <rect x="1.2" y="1.1" class="st0" width="188.5" height="45.5"/>
+                         <rect x="1.2" y="137.6" class="st0" width="188.5" height="45.5"/>
+                       </g>
+                      </svg>
+                      Menu
+                  </button>
+                </span>
+              </div>
+          
+        </div>
+      </div>
+      <div id="primary-nav-tabs" class="columns small-12 large-8">
+              <ul class="tabs " data-responsive-accordion-tabs="accordion medium-accordion large-tabs" data-allow-all-closed="true" id="primary-nav-tabs-content" data-equalizer-watch>
+
+            
+1f52
+                                  <li class="tabs-title"><a href="#primary-nav-tab-0">Study</a></li>
+                                                              <li class="tabs-title"><a href="#primary-nav-tab-1">Research</a></li>
+                                                              <li class="tabs-title tabs-link" href="/business/" role="link">
+                    <a href="/business/">Business</a>
+                  </li>
+                                                              <li class="tabs-title"><a href="#primary-nav-tab-3">About</a></li>
+                                                              <li class="tabs-title tabs-link" href="/news/" role="link">
+                    <a href="/news/">News</a>
+                  </li>
+                            
+          <li class="tabs-title search show-for-large">
+            <a href="#primary-nav-tab-search">
+              <svg class="show-for-large" viewBox="0 0 100 100">
+                <path  fill-rule="evenodd" d="M42.117,12.246 C50.1209,12.246 57.797,15.4257 63.453,21.0858 C69.1132,26.742 72.2928,34.4178 72.2928,42.4218 C72.2928,50.4258 69.1131,58.1018 63.453,63.7578 C57.7968,69.418 50.121,72.5976 42.117,72.5976 C34.1131,72.5976 26.437,69.4179 20.781,63.7578 C15.1208,58.1016 11.9412,50.4258 11.9412,42.4218 C11.9412,34.4178 15.1209,26.7418 20.781,21.0858 C26.4372,15.4256 34.113,12.246 42.117,12.246 L42.117,12.246 Z M76.0828827,67.3362833 C82.3527829,58.7859894 85.2617455,48.0434678 83.9173,37.22271 C82.0618,22.28871 72.3743,9.47671 58.5153,3.61771 L58.51139,3.61771 C53.32389,1.41851 47.74139,0.28961 42.10539,0.29741 L42.117,0.305 C29.058,0.30891 16.742,6.3675 8.769001,16.707 C0.7924008,27.047 -1.933999,40.5 1.382301,53.129 C4.698701,65.758 13.6833,76.137 25.7103,81.223 L25.7103,81.22691 C39.5733,87.08631 55.5113,85.10191 67.5153,76.02771 C67.5852345,75.9748392 67.6549736,75.9217748 67.724517,75.8685177 L91.555,99.6990032 L100.0003,91.253703 L76.0828827,67.3362833 Z">
+                </path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> <!-- end primary-nav -->
+
+
+  <!-- primary-nav-tabs-panels -->
+  <div id="primary-nav-tabs-panels">
+    <div  class="tabs-content" data-tabs-content="primary-nav-tabs-content">
+
+              <div class="tabs-panel" id="primary-nav-tab-0">
+          <div class="row">
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3><a href="/study/undergraduate/">Undergraduate</a></h3>
+                                <ul>
+                                                            <li><a href="/study/undergraduate/courses/">Undergraduate Courses</a></li>
+                                                                                <li><a href="/study/undergraduate/fees-and-funding/">Fees &amp; Funding</a></li>
+                                                                                <li><a href="/study/teaching-and-learning/collegiate-system/">Our Colleges</a></li>
+                                                                                <li><a href="http://www.lancaster.ac.uk/virtual-open-day/">Virtual Open Day</a></li>
+                                                                                <li><a href="/careers/">Employability</a></li>
+                                                                                <li><a href="/study/undergraduate/admissions/">How to Apply</a></li>
+                                                                                <li><a href="/learning-skills/">Learning and Skills Development</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3><a href="/study/postgraduate/">Postgraduate Study</a></h3>
+                                <ul>
+                                                            <li><a href="/study/postgraduate/postgraduate-courses/">Postgraduate Courses</a></li>
+                                                                                <li><a href="/study/postgraduate/postgraduate-fees-and-funding/">Fees &amp; Funding</a></li>
+                                                                                <li><a href="/study/postgraduate/how-to-apply-for-postgraduate-study/">How to Apply</a></li>
+                                                                                <li><a href="/careers/">Careers</a></li>
+                                                                                <li><a href="/study/postgraduate/students-with-families/">Students with Families</a></li>
+                                                                                <li><a href="/study/postgraduate/distance-learning/">Distance Learning</a></li>
+                                                                                            </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3><a href="/study/postgraduate-research/">Postgraduate Research</a></h3>
+                                <ul>
+                                                            <li><a href="/study/postgraduate/postgraduate-research-training/">Postgraduate Research Training</a></li>
+                                                                                <li><a href="/study/postgraduate/how-to-apply-for-postgraduate-study/writing-a-research-proposal/">Writing a Research Proposal</a></li>
+                                                                                <li><a href="/study/all-fees-and-funding/">Fees &amp; Funding</a></li>
+                                                                                <li><a href="/study/postgraduate/how-to-apply-for-postgraduate-study/">How to Apply</a></li>
+                                                                                <li><a href="/careers/">Careers</a></li>
+                                                                                <li><a href="/study/postgraduate/students-with-families/">Students with Families</a></li>
+                                                                                <li><a href="/study/postgraduate/distance-learning/">Distance Learning</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3><a href="/study/international-students/">International</a></h3>
+                                <ul>
+                                                            <li><a href="/study/international-students/entry-requirements/">Entry Requirements</a></li>
+                                                                                <li><a href="/study/international-students/find-your-country/">Find Your Country</a></li>
+                                                                                <li><a href="/study/international-students/how-to-apply-international/">How to Apply</a></li>
+                                                                                <li><a href="/study/international-students/pre-sessional-english-language/">Pre-Sessional English</a></li>
+                                                                                <li><a href="http://www.lancasterisc.com/international-foundation-year/?ch=uniweb&cc=uniweb&cid=uniweb&utm_source=signposting&utm_medium=signposting&utm_campaign=uniweb">International Foundation Year</a></li>
+                                                                                <li><a href="https://www.lancasterisc.com/programmes/pre-masters-programme">Pre-Masters Programme</a></li>
+                                                                                <li><a href="/study/international-students/study-abroad/
+1f4e
+">Study Abroad and Exchanges</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns end">
+                                  <h3>Other Courses</h3>
+                                <ul>
+                                                            <li><a href="/study/free-courses/">Free Courses</a></li>
+                                                                                <li><a href="/study/cpd/">CPD</a></li>
+                                                      </ul>
+              </div>
+                      </div>
+        </div>
+              <div class="tabs-panel" id="primary-nav-tab-1">
+          <div class="row">
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3><a href="/research/">Research at Lancaster</a></h3>
+                                <ul>
+                                                            <li><a href="http://www.research.lancs.ac.uk/portal/">Research Directory</a></li>
+                                                                                <li><a href="/research/research-services/">Research Services</a></li>
+                                                                                <li><a href="/research/support-for-researchers/">Researcher Development</a></li>
+                                                                                <li><a href="/research/participate-in-research/">Participate in Research</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3>Research in Faculties</h3>
+                                <ul>
+                                                            <li><a href="/arts-and-social-sciences/research/">Arts and Social Sciences</a></li>
+                                                                                <li><a href="/fhm/research/">Health and Medicine</a></li>
+                                                                                <li><a href="/lums/research/">Management School</a></li>
+                                                                                <li><a href="/sci-tech/research/">Science and Technology</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns end">
+                                  <h3>Multidisciplinary Research</h3>
+                                <ul>
+                                                            <li><a href="/dsi/">Data Science Institute</a></li>
+                                                                                <li><a href="/materials-science-institute/">Materials Science Institute</a></li>
+                                                                                <li><a href="http://www.lancaster.ac.uk/social-futures/">Institute for Social Futures</a></li>
+                                                                                <li><a href="/security-lancaster/">Security Lancaster</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns end">
+                                  <h3><a href="/research/doctoral-academy/">Doctoral Academy</a></h3>
+                                <ul>
+                                                            <li><a href="/research/doctoral-academy/doctoral-training-centres/">Doctoral Training Centres</a></li>
+                                                                                <li><a href="/research/doctoral-academy/postgraduate-showcase/">Postgraduate Showcase</a></li>
+                                                                                <li><a href="/study/postgraduate/postgraduate-research-training/">Postgraduate Research Training</a></li>
+                                                      </ul>
+              </div>
+                      </div>
+        </div>
+              <div class="tabs-panel" id="primary-nav-tab-2">
+          <div class="row">
+                      </div>
+        </div>
+              <div class="tabs-panel" id="primary-nav-tab-3">
+          <div class="row">
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3><a href="/about-us/theuniversity/">The University</a></h3>
+                                <ul>
+                                                            <li><a href="/about-us/ourpeople/">Our People</a></li>
+                                                                                <li><a href="/about-us/rankings-and-reputation/">Our Reputation</a></li>
+                                                                                <li><a href="/about-us/our-principles/">Our Principles</a></li>
+                                                                                <li><a href="/news/">News</a></li>
+                                                                                <li><a href="/events/">Events</a></li>
+                                                                                <li><a href="/sustainability/">Sustainability</a></li>
+                                                                                <li><a href="/about-us/income-and-expenditure/">Income and expenditure</a></li>
+                                                                                <li><a href="/about-us/strategic-plan/">Strategic Plan</a></li>
+                                                                                <li><a href="/about-us/governance-and-compliance/">Governance and Compliance</a></li>
+                                                                                <li><a href="/faculties-and-departments/">Faculties &amp; Departments</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3><a href="/about-us/theuniversity/">Campus</a></h3>
+                                <ul>
+                                                            <li><a href="/about-us/theuniversity/our-campus/">About Our Campus</a></li>
+                                                                                <li><a href="/study/life-at-lancaster/culture-on-campus/">Culture on Campus</a></li>
+                                                                                <li><a href="https://www.lancasterarts.org/">Lancaster Arts</a></li>
+                                                                                <li><a href="https://lancastersu.co.uk/">Students' Union</a></li>
+                                                                                <li><a href="/study/open-days/">Visiting Campus</a></li>
+                                                                                <li><a href="/contact-and-getting-here/">Contact &amp; Getting Here</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns end">
+                                  <h3><a href="/study/life-at-lancaster/">Community</a></h3>
+                                <ul>
+                                                            <li><a href="/alumni/">Alumni</a></li>
+                                                                                <li><a href="/study/life-at-lancaster/city/">City of Lancaster</a></li>
+                                                                                <li><a href="/study/teaching-and-learning/collegiate-system/">Our Colleges</a></li>
+                    
+2008
+                                                            <li><a href="/conferences/">Lancaster Conferences</a></li>
+                                                                                <li><a href="/study/life-at-lancaster/sport-at-lancaster/">Sport at Lancaster</a></li>
+                                                                                <li><a href="/study/life-at-lancaster/wellbeing-and-support/">Wellbeing &amp; Support</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns end">
+                                  <h3><a href="/study/open-days/">Visit Us</a></h3>
+                                <ul>
+                                                            <li><a href="/study/open-days/undergraduate-open-days/">Undergraduate Open Days</a></li>
+                                                                                <li><a href="/study/open-days/postgraduate-open-days/">Postgraduate Open Days</a></li>
+                                                                                <li><a href="/study/open-days/campus-tours/">Campus Tours</a></li>
+                                                                                <li><a href="https://www.lancaster.ac.uk/conferences/booking/">Guest Rooms</a></li>
+                                                                                <li><a href="/schools/">Schools &amp; Colleges</a></li>
+                                                                                <li><a href="/opentoall/">Open to All</a></li>
+                                                                                <li><a href="http://www.lancaster.ac.uk/virtual-tour/">Virtual Tour</a></li>
+                                                      </ul>
+              </div>
+                      </div>
+        </div>
+              <div class="tabs-panel" id="primary-nav-tab-4">
+          <div class="row">
+                      </div>
+        </div>
+      
+      <!-- search-bar -->
+      <div class="tabs-panel search-bar" id="primary-nav-tab-search">
+        <div class="row column">
+          <form role="search" action="/search/" method="get">
+            <label for="f-search-input" class="show-for-sr">Main site search</label>
+            <input class="input-field search-field" name="q" type="search" placeholder="Search this site..." id="f-search-input">
+            <button type="submit" class="button">Search</button>
+          </form>
+          <script>
+            /*
+             * Ensure the input search boxes get the focus when the panel is opened
+             */
+            $(function() {
+              var searchDiv = $("#primary-nav-tab-search");
+              var searchDivMobile = $("#top-bar-search");
+              var observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                  if (mutation.attributeName === "class") {
+                    var id = $(mutation.target).prop('id');
+                    switch(id) {
+                      case 'top-bar-search':
+                        if (!$(mutation.target).hasClass('hide')) {
+                          $("#f-search-input-mobile").val('').focus();
+                        }
+                        break;
+                      case 'primary-nav-tab-search':
+                        if ($(mutation.target).hasClass('is-active')) {
+                          $("#f-search-input").val('').focus();
+                        }
+                        break;
+                    }
+                  }
+                });
+              });
+              observer.observe(searchDiv[0], {
+                attributes: true
+              });
+              observer.observe(searchDivMobile[0], {
+                attributes: true
+              });              
+            });
+          </script>
+          <div class="row column">
+           <a href="/a-z/">Or look in our A-Z index</a>
+          </div>
+        </div>
+      </div> <!-- end search-bar -->
+    </div> <!-- end tabs-content -->
+  </div> <!-- end primary-nav-tabs-panels -->
+</header>
+
+        <hr class="expanded bg-primary-red navigation-separator">
+    
+    <div class="main-container" id="main" role="main">
+                  <div class="breadcrumb-wrapper"> 
+        <div class="row column">
+          <div class="breadcrumb">
+            <ol>
+              <li><!--nav obj 70--><a href="/">Home</a></li> <li><a href="/errors/">Errors</a></li> <li>404</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <style>
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 90%;
+    flex-direction: row
+}
+
+form input[type='search'] {
+    flex: 6 0 0;
+    height: 3rem;
+    border-radius: 5px 0 0 5px;
+    margin: 0
+}
+
+form button[type='submit'] {
+    background-color: #b5121b;
+    color: white;
+    border: 0;
+    flex: 1 0 0;
+    height: 3rem;
+    border-radius: 0 5px 5px 0;
+    margin: 0;
+    font-size: 1rem
+}
+
+</style>
+<section>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-y grid-margin-x">
+      <div class="cell small-12 medium-9">
+        <h1>Page not found</h1>
+        <p class="h3">Error Code: 404</p>
+        <p class="h4">If you typed in the address then please check it was correct.</p>
+        <p>It could be that you've followed an out of date link and the page has been removed or moved to another part of the site.</p>
+        <p class="h4">Search for the page you were looking for</p>
+        <form role="search" action="/search/" method="get">
+          <label for="f-search-input" class="show-for-sr">Main site search</label>
+          <input class="input-field search-field" name="q" type="search" placeholder="Search this site..." id="f-search-input">
+          <button type="submit" class="button">Search</button>
+        </form>
+        <p>…or you might find what you are looking for in the <a href="SiteManager?ctfn=publish&amp;fnno=30&amp;chid=7&amp;lang=en&amp;sid=363">List of Faculties and Departments</a>, <a href="SiteManager?ctfn=publish&amp;fnno=30&amp;chid=7&amp;lang=en&amp;sid=725">A-Z Index</a> or <a href="SiteManager?ctfn=publish&amp;fnno=30&amp;chid=7&amp;lang=en&amp;sid=771">Site Map</a>.</p>
+      </div>
+      <div class="cell show-for-medium medium-3">
+        
+<div class="image-wrapper">
+  <div class="image-wrapper-link">
+     <img alt="Student in the Library reading a book" src="/media/lancaster-university/content-assets/images/errors/search-sidebar.jpg" />
+      
+</div>
+
+  
+<div class="panel-mask"></div>
+
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>    </div>
+    <!--end main container-->
+    <a href="#top" class="back-to-top">
+        <svg class="icon">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/symbols.svg#up-arrow"></use>
+        </svg>
+        <p>Top</p>
+    </a>
+    
+
+
+    <footer role="contentinfo" id="footer">
+      <!-- Footer Code -->
+      
+  <div class="grid-container main-footer">
+    <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="cell medium-3 large-2 medium-order-1 large-order-1">
+        <h4>Quick Links</h4>
+        <ul class="menu vertical">
+          <!-- DPMT Fetch Current Section Links -->
+<li><a href="/study/undergraduate/">Undergraduate Study</a></li><li><a href="/study/postgraduate/">Postgraduate Study</a></li><li><a href="/current-students/">For students</a></li><li><a href="/current-staff/">For staff</a></li><li><a href="/a-z/">A-Z Index</a></li><li><a href="/contact-and-getting-here/">Contact and Getting Here</a></li><li><a href="https://hr-jobs.lancs.ac.uk/">Job Vacancies</a></li><li><a href="/study/teaching-and-learning/collegiate-system/">Colleges</a></li><li><a href="/library/">Library</a></li><li><a href="/online-payments/">Online Payments</a></li><li><a href="https://lancastersu.co.uk/">Students' Union</a></li>
+1c62
+        </ul>
+      </div>
+      <div class="cell medium-4 large-2 show-for-medium medium-order-2 large-order-2">
+        <h4>Faculties &amp; Depts</h4>
+        <ul class="menu vertical">
+          <li><a href="/arts-and-social-sciences/">Arts &amp; Social Sciences</a></li><li><a href="http://www.lancaster.ac.uk/fhm/">Health &amp; Medicine</a></li><li><a href="/lums/">Management School</a></li><li><a href="http://www.lancaster.ac.uk/sci-tech/">Science &amp; Technology</a></li><li><a href="/faculties-and-departments/">Departments, Institutes &amp; Centres</a></li><li><a href="http://www.lancaster.ac.uk/the-work-foundation/">The Work Foundation</a></li><li><a href="http://www.lancaster.edu.gh/">Ghana</a></li>        </ul>
+      </div>
+
+      <div class="cell small-12 medium-5 large-2 medium-order-4 large-order-3">
+        <h4>Connect</h4>
+        <ul class="menu vertical connect">
+          <li><a title="External Link: Facebook" href="http://www.facebook.com/lancasteruniversity/"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#facebook"></use>
+          </svg><span>Facebook</span></a></li>
+          <li><a title="External Link: Twitter" href="https://www.twitter.com/LancasterUni"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#twitter"></use>
+          </svg><span>Twitter</span></a></li>
+          <li><a title="External Link: The Student Room" href="http://www.thestudentroom.co.uk/forumdisplay.php?f=157"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#tsr"></use>
+          </svg><span>The Student Room</span></a></li>
+          <li><a title="External Link: Instagram" href="http://instagram.com/lancasteruni/"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#instagram"></use>
+          </svg><span>Instagram</span></a></li>
+          <li><a title="External Link: YouTube" href="http://www.youtube.com/lancasteruniversity/"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#youtube"></use>
+          </svg><span>YouTube</span></a></li>
+          <li><a title="External Link: LinkedIn" href="http://www.linkedin.com/edu/school?id=12603&amp;trk=tyah"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#linkedin"></use>
+          </svg><span>LinkedIn</span></a></li>
+          <li><a title="External Link: Weibo" href="http://e.weibo.com/lancasteruni"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#weibo"></use>
+          </svg><span>Weibo</span></a></li>
+          <li><a title="External Link: WeChat" href="http://www.lancaster.ac.uk/wechat/"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#wechat"></use>
+          </svg><span>WeChat</span></a></li>
+        </ul>
+      </div>
+
+      <div class="cell medium-5 large-auto medium-order-3 large-order-4">
+        <h4>Contact Us</h4>
+        <div class="grid-x grid-padding-y">
+          <div class="cell small-6 medium-7 large-7">
+            <ul class="menu vertical">
+              <li>
+                <address itemprop='address' itemscope='' itemtype='http://schema.org/PostalAddress' class='t11px'><span itemprop='name'>Lancaster University</span><br><span itemprop='streetAddress'>Bailrigg</span><br><span itemprop='addressLocality'>Lancaster</span><br><span itemprop='addressCountry'>United Kingdom</span><br><span itemprop='postalCode'>LA1 4YW</span><br></address>              </li>
+            </ul>
+            <ul class="menu vertical contact-details">
+            <li><span class="phone-number"><a href="tel:+44 (0)1524 65201"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/symbols.svg#phone"></use>
+          </svg>+44 (0)1524 65201</a></span></li>                              <li><a href="/contact-and-getting-here/"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/symbols.svg#map-marker"></use>
+          </svg>Find us</a></li>            </ul>
+          </div>
+          <div class="cell small-6 medium-5 large-5">
+            <img data-lazy-load src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png" 
+		 data-src='/media/wdp/style-assets/images/location-map.svg' 
+                 alt="Lancaster University location in the UK" />
+          </div>
+        </div>
+      </div>
+      
+      <div class="cell medium-7 large-2 show-for-medium awards medium-order-5 large-order-5">
+        <img data-lazy-load
+	     src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png"
+	     data-src='/media/lancaster-university/content-assets/images/footer-images/tef-gold-landscape-reversed-words.svg'
+	     alt="TEF Gold Award logo"
+	/>
+	<img data-lazy-load
+	     src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png"
+	     data-src='/media/wdp/style-assets/images/university-of-the-year-logo.svg'
+	     alt="Times University of the Year Award logo"
+	/>
+	<img data-lazy-load
+	     src = "/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png"
+	     data-src='/media/lancaster-university/content-assets/images/footer-images/Queens-Anniversary-Prizes-2015.jpg'
+	     alt="Queen's Anniversary Prize logo"
+	/>
+      </div>
+    </div>
+  </div>
+
+  <div class="final">
+    <p class="text-center">
+      <a href="/compliance/legalnotice/">Legal notice</a> |
+      <a href="/freedom-of-information/">Freedom of Information</a> |
+      <a href="/compliance/privacy/">Privacy and Cookies Notices</a> |
+      &copy;
+      2018 Lancaster University. All rights reserved.
+    </p>
+  </div>
+    </footer>
+
+    </div>
+    <!--end site container-->
+</div>
+<!-- end foundation container -->
+
+<script type="text/javascript" src="/media/wdp/style-assets/javascript/jquery.sticky.min.js"></script> <!-- jquery.sticky -->
+<script type="text/javascript" src="/media/wdp/style-assets/javascript/foundation/foundation.min.js"></script> <!-- foundation.min.js -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+
+<script>
+$(document).foundation();
+$(document).ready(function() {
+  scriptHandler.addScript('/media/wdp/style-assets/javascript/ilightbox.js')
+    .then(function() {
+      scriptHandler.addScript("/media/wdp/style-assets/javascript/foundation/foundationFooter.bundle.js");
+    });
+});
+</script>
+</body>
+
+</html>
+0
+

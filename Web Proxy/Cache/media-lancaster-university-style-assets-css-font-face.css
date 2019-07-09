@@ -1,0 +1,97 @@
+HTTP/1.1 200 OK
+Date: Sat, 24 Nov 2018 07:44:42 GMT
+Server: Apache
+Last-Modified: Fri, 09 Nov 2018 11:52:44 GMT
+ETag: "9f12536-c82-57a39fd3e5b00"
+Accept-Ranges: bytes
+Content-Length: 3202
+Cache-Control: max-age=0
+Expires: Sat, 24 Nov 2018 07:44:42 GMT
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/css
+
+@font-face {
+  font-family: 'LexiaRegular';
+  font-display: swap;
+  src: url(/media/wdp/style-assets/fonts/lexia_std_rg.woff2) format('woff2'),
+       url(/media/wdp/style-assets/fonts/lexia_std_rg.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'LexiaBold';
+  font-display: swap;
+  src: url(/media/wdp/style-assets/fonts/lexia_std_bd-font.woff2) format('woff2'),
+       url(/media/wdp/style-assets/fonts/lexia_std_bd-font.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LexiaBlack';
+  font-display: swap;
+  src: url(/media/wdp/style-assets/fonts/lexia_std_blk-font.woff2) format('woff2'),
+       url(/media/wdp/style-assets/fonts/lexia_std_blk-font.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LexiaItalic';
+   font-display: swap;
+  src: url(/media/wdp/style-assets/fonts/lexia_std_it-font.woff2) format('woff2'),
+       url(/media/wdp/style-assets/fonts/lexia_std_it-font.woff) format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Lexia Light and Lexia Light Italic are only being used on non-Foundation pages and should be removed after transformation */
+
+@font-face {
+    font-family: 'LexiaLight';
+    src: url(/media/lancaster-university/style-assets/fonts/lexia_std_lt-webfont.eot);
+    src: url(/media/lancaster-university/style-assets/fonts/lexia_std_lt-webfont.eot?#iefix) format('embedded-opentype'),
+         url(/media/lancaster-university/style-assets/fonts/lexia_std_lt-webfont.woff) format('woff'),
+         url(/media/lancaster-university/style-assets/fonts/lexia_std_lt-webfont.svg#LexiaLight) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'LexiaLightItalic';
+    src: url(/media/lancaster-university/style-assets/fonts/lexia_std_ltit-webfont.eot);
+    src: url(/media/lancaster-university/style-assets/fonts/lexia_std_ltit-webfont.eot?#iefix) format('embedded-opentype'),
+         url(/media/lancaster-university/style-assets/fonts/lexia_std_ltit-webfont.woff) format('woff'),
+         url(/media/lancaster-university/style-assets/fonts/lexia_std_ltit-webfont.svg#LexiaLightItalic) format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'EffraRegular';
+  font-display: swap;
+  src: url(/media/wdp/style-assets/fonts/effra_std_rg-font.woff2) format('woff2'),
+       url(/media/wdp/style-assets/fonts/effra_std_rg-font.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EffraBold';
+  font-display: swap;
+  src: url(/media/wdp/style-assets/fonts/effra_std_bd-font.woff2) format('woff2'),
+       url(/media/wdp/style-assets/fonts/effra_std_bd-font.woff) format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'EffraLight';
+  font-display: swap;
+  src: url(/media/wdp/style-assets/fonts/effra_std_lt-font.woff2) format('woff2'),
+       url(/media/wdp/style-assets/fonts/effra_std_lt-font.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

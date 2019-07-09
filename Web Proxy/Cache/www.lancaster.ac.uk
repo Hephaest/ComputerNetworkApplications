@@ -1,0 +1,1158 @@
+HTTP/1.1 200 OK
+Date: Sat, 24 Nov 2018 07:44:15 GMT
+Server: Apache
+Vary: User-Agent,Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+
+1f41
+
+
+
+
+<!doctype html>
+<!-- Page Layout: Foundation no 2 nav -->
+
+
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:url" content="http://www.lancaster.ac.uk/"/>
+    <meta property="og:title" content="Home" />
+
+    
+    
+    
+    
+    <link rel="canonical" href="http://www.lancaster.ac.uk/"/>
+    <title>Home | Lancaster University</title>
+
+    <!-- Siteimprove hook -->
+    <meta name="PageID" content="272" />
+
+    
+    <!-- meta description -->
+    <meta name="description" content="The Times and Sunday Times University of the Year 2018, with TEF gold standard teaching and internationally significant research" />
+
+    <!-- css : app.css -->
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/media/wdp/style-assets/css/foundation/app.5.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/media/lancaster-university/style-assets/css/font-face.css" /> <!-- fonts : font-face.css  -->
+    <script type="text/javascript" src="/media/wdp/style-assets/javascript/foundation/loadScript.js"></script> <!-- loadscript -->
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+    <!-- favicon -->
+    <link rel="shortcut icon"  href="/media/lancaster-university/style-assets/images/favicon.ico">
+<link rel="apple-touch-icon"  href="/media/lancaster-university/style-assets/images/apple-touch-icon.png">
+    <!-- included head code -->
+    <!-- Global Included Head Code --><script>window.jQuery || document.write('<script src="/media/wdp/style-assets/javascript/lib/thirdparty/jquery/jquery-1.12.4.min.js"><\/script>')</script><script src="//cdn.polyfill.io/v2/polyfill.min.js?features=Promise,fetch,Element.prototype.classlist&flags=gated"></script><script src='/media/wdp/style-assets/javascript/scriptHandler.min.js'></script>
+<script>
+  var scriptHandler = new ScriptHandler();
+</script><!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KHTVZS');</script>
+<!-- End Google Tag Manager -->    <!-- Local Included Head Code -->
+    <!-- local highlight theme -->
+    
+
+    <!--[if lt IE 8]>
+    <script src="//s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+    <script src="//html5base.googlecode.com/svn-history/r38/trunk/js/selectivizr-1.0.3b.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.1.0/respond.min.js"></script>
+    <script type="text/javascript" src="/media/wdp/style-assets/javascript/foundation/rem.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="no-nav">
+
+<!-- included body code -->
+<!-- Global Included Body Code --><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHTVZS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><!-- Lazy Load scripts -->
+<script src='/media/wdp/style-assets/javascript/jquery.unveil.min.js'></script>
+<script async src='/media/wdp/style-assets/javascript/lazy-load.bundle.js'></script><!-- invisible links -->
+<div class="invisible-links">
+    <a href="#main">Skip to content</a>
+</div>
+<!-- Local Included Body Code -->
+<div class="foundation-container">
+  <div class="site-container">
+    <!-- Main Menu header -->
+    <!-- foundation header -->
+<header>
+
+
+  <!-- LU top-bar -->
+  <div id="lu-bar" class="hide-for-large">
+
+    <div class="navigation row">
+      <div class="columns small-10">
+      <a class="btn-home btn-toolbar-item" title="Link: Home" href="/"><span aria-hidden="true">
+      <img src='/media/wdp/style-assets/images/foundation/lu-shield.svg' alt="Lancaster University shield" class="lu-home"></span><span class="show-for-sr">Lancaster University Home Page</span><span class="core-site-title">Lancaster University</span></a>
+      </div>
+
+      <div class="columns small-2">
+        <a href="#" data-toggle="top-bar-search" class="float-right hide-for-large"><span aria-hidden="true">
+           <svg viewBox="0 0 100 100" class="search-icon">
+                <path  fill-rule="evenodd" d="M42.117,12.246 C50.1209,12.246 57.797,15.4257 63.453,21.0858 C69.1132,26.742 72.2928,34.4178 72.2928,42.4218 C72.2928,50.4258 69.1131,58.1018 63.453,63.7578 C57.7968,69.418 50.121,72.5976 42.117,72.5976 C34.1131,72.5976 26.437,69.4179 20.781,63.7578 C15.1208,58.1016 11.9412,50.4258 11.9412,42.4218 C11.9412,34.4178 15.1209,26.7418 20.781,21.0858 C26.4372,15.4256 34.113,12.246 42.117,12.246 L42.117,12.246 Z M76.0828827,67.3362833 C82.3527829,58.7859894 85.2617455,48.0434678 83.9173,37.22271 C82.0618,22.28871 72.3743,9.47671 58.5153,3.61771 L58.51139,3.61771 C53.32389,1.41851 47.74139,0.28961 42.10539,0.29741 L42.117,0.305 C29.058,0.30891 16.742,6.3675 8.769001,16.707 C0.7924008,27.047 -1.933999,40.5 1.382301,53.129 C4.698701,65.758 13.6833,76.137 25.7103,81.223 L25.7103,81.22691 C39.5733,87.08631 55.5113,85.10191 67.5153,76.02771 C67.5852345,75.9748392 67.6549736,75.9217748 67.724517,75.8685177 L91.555,99.6990032 L100.0003,91.253703 L76.0828827,67.3362833 Z">
+                </path>
+            </svg>
+        </span><span class="show-for-sr">Search</span></a>
+      </div>
+    </div>
+
+  <!-- mobile search panel -->
+  <div class="search-bar row column hide-for-large hide" data-toggler=".hide" id="top-bar-search">
+    
+      <form role="search" action="/search/" method="get">
+        <label for="f-search-input-mobile" class="show-for-sr">Site search</label>
+        <input class="input-field search-field" name="q" type="search" placeholder="Search this site..." id="f-search-input-mobile">
+        <button type="submit" class="button">Search</button>
+      </form>
+    
+  </div>  <!-- end mobile search panel -->
+
+
+  </div> <!-- end LU top-bar -->
+
+  <!-- primary navigation -->
+  <nav id="primary-nav">
+    <div class="row" data-equalizer>
+
+      <div class="columns small-12 medium-12 large-4">
+        <div class="row">
+          <div class="columns small-8 large-12"  data-equalizer-watch>
+            <a href="/"  class="ir">
+              <!-- Header Logo -->
+              <div class="logo">
+                <div class="logo-wrapper">
+                  <img
+    src='/media/wdp/style-assets/images/logos/lu-logo.svg'
+    alt='Lancaster University'
+    class=' '
+    itemprop="logo"
+/>
+
+
+                </div>
+              </div>
+            </a>
+          </div>
+
+                        <div class="hide-for-large columns small-4 menu-toggle">
+                <span data-responsive-toggle="primary-nav-tabs" data-hide-for="large" class="float-right">
+                  <button data-toggle class="button">
+                     <svg class="hide-for-large" viewBox="0 0 190.8 184.2">
+                       <g>
+                         <rect x="1.2" y="66.1" class="st0" width="188.5" height="45.5"/>
+                         <rect x="1.2" y="1.1" class="st0" width="188.5" height="45.5"/>
+                         <rect x="1.2" y="137.6" class="st0" width="188.5" height="45.5"/>
+                       </g>
+                      </svg>
+                      Menu
+                  </button>
+                </span>
+              </div>
+          
+        </div>
+      </div>
+      <div id="primary-nav-tabs" class="columns small-12 large-8">
+              <ul class="tabs 
+1f51
+" data-responsive-accordion-tabs="accordion medium-accordion large-tabs" data-allow-all-closed="true" id="primary-nav-tabs-content" data-equalizer-watch>
+
+                                              <li class="tabs-title"><a href="#primary-nav-tab-0">Study</a></li>
+                                                              <li class="tabs-title"><a href="#primary-nav-tab-1">Research</a></li>
+                                                              <li class="tabs-title tabs-link" href="/business/" role="link">
+                    <a href="/business/">Business</a>
+                  </li>
+                                                              <li class="tabs-title"><a href="#primary-nav-tab-3">About</a></li>
+                                                              <li class="tabs-title tabs-link" href="/news/" role="link">
+                    <a href="/news/">News</a>
+                  </li>
+                            
+          <li class="tabs-title search show-for-large">
+            <a href="#primary-nav-tab-search">
+              <svg class="show-for-large" viewBox="0 0 100 100">
+                <path  fill-rule="evenodd" d="M42.117,12.246 C50.1209,12.246 57.797,15.4257 63.453,21.0858 C69.1132,26.742 72.2928,34.4178 72.2928,42.4218 C72.2928,50.4258 69.1131,58.1018 63.453,63.7578 C57.7968,69.418 50.121,72.5976 42.117,72.5976 C34.1131,72.5976 26.437,69.4179 20.781,63.7578 C15.1208,58.1016 11.9412,50.4258 11.9412,42.4218 C11.9412,34.4178 15.1209,26.7418 20.781,21.0858 C26.4372,15.4256 34.113,12.246 42.117,12.246 L42.117,12.246 Z M76.0828827,67.3362833 C82.3527829,58.7859894 85.2617455,48.0434678 83.9173,37.22271 C82.0618,22.28871 72.3743,9.47671 58.5153,3.61771 L58.51139,3.61771 C53.32389,1.41851 47.74139,0.28961 42.10539,0.29741 L42.117,0.305 C29.058,0.30891 16.742,6.3675 8.769001,16.707 C0.7924008,27.047 -1.933999,40.5 1.382301,53.129 C4.698701,65.758 13.6833,76.137 25.7103,81.223 L25.7103,81.22691 C39.5733,87.08631 55.5113,85.10191 67.5153,76.02771 C67.5852345,75.9748392 67.6549736,75.9217748 67.724517,75.8685177 L91.555,99.6990032 L100.0003,91.253703 L76.0828827,67.3362833 Z">
+                </path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav> <!-- end primary-nav -->
+
+
+  <!-- primary-nav-tabs-panels -->
+  <div id="primary-nav-tabs-panels">
+    <div  class="tabs-content" data-tabs-content="primary-nav-tabs-content">
+
+              <div class="tabs-panel" id="primary-nav-tab-0">
+          <div class="row">
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3><a href="/study/undergraduate/">Undergraduate</a></h3>
+                                <ul>
+                                                            <li><a href="/study/undergraduate/courses/">Undergraduate Courses</a></li>
+                                                                                <li><a href="/study/undergraduate/fees-and-funding/">Fees &amp; Funding</a></li>
+                                                                                <li><a href="/study/teaching-and-learning/collegiate-system/">Our Colleges</a></li>
+                                                                                <li><a href="http://www.lancaster.ac.uk/virtual-open-day/">Virtual Open Day</a></li>
+                                                                                <li><a href="/careers/">Employability</a></li>
+                                                                                <li><a href="/study/undergraduate/admissions/">How to Apply</a></li>
+                                                                                <li><a href="/learning-skills/">Learning and Skills Development</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3><a href="/study/postgraduate/">Postgraduate Study</a></h3>
+                                <ul>
+                                                            <li><a href="/study/postgraduate/postgraduate-courses/">Postgraduate Courses</a></li>
+                                                                                <li><a href="/study/postgraduate/postgraduate-fees-and-funding/">Fees &amp; Funding</a></li>
+                                                                                <li><a href="/study/postgraduate/how-to-apply-for-postgraduate-study/">How to Apply</a></li>
+                                                                                <li><a href="/careers/">Careers</a></li>
+                                                                                <li><a href="/study/postgraduate/students-with-families/">Students with Families</a></li>
+                                                                                <li><a href="/study/postgraduate/distance-learning/">Distance Learning</a></li>
+                                                                                            </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3><a href="/study/postgraduate-research/">Postgraduate Research</a></h3>
+                                <ul>
+                                                            <li><a href="/study/postgraduate/postgraduate-research-training/">Postgraduate Research Training</a></li>
+                                                                                <li><a href="/study/postgraduate/how-to-apply-for-postgraduate-study/writing-a-research-proposal/">Writing a Research Proposal</a></li>
+                                                                                <li><a href="/study/all-fees-and-funding/">Fees &amp; Funding</a></li>
+                                                                                <li><a href="/study/postgraduate/how-to-apply-for-postgraduate-study/">How to Apply</a></li>
+                                                                                <li><a href="/careers/">Careers</a></li>
+                                                                                <li><a href="/study/postgraduate/students-with-families/">Students with Families</a></li>
+                                                                                <li><a href="/study/postgraduate/distance-learning/">Distance Learning</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3><a href="/study/international-students/">International</a></h3>
+                                <ul>
+                                                            <li><a href="/study/international-students/entry-requirements/">Entry Requirements</a></li>
+                                                                                <li><a href="/study/international-students/find-your-country/">Find Your Country</a></li>
+                                                                                <li><a href="/study/international-students/how-to-apply-international/">How to Apply</a></li>
+                                                                                <li><a href="/study/international-students/pre-sessional-english-language/">Pre-Sessional English</a></li>
+                                                                                <li><a href="http://www.lancasterisc.com/international-foundation-year/?ch=uniweb&cc=uniweb&cid=uniweb&utm_source=signposting&utm_medium=signposting&utm_campaign=uniweb">International Foundation Year</a></li>
+                                                                                <li><a href="https://www.lancasterisc.com/programmes/pre-masters-programme
+1f53
+">Pre-Masters Programme</a></li>
+                                                                                <li><a href="/study/international-students/study-abroad/">Study Abroad and Exchanges</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns end">
+                                  <h3>Other Courses</h3>
+                                <ul>
+                                                            <li><a href="/study/free-courses/">Free Courses</a></li>
+                                                                                <li><a href="/study/cpd/">CPD</a></li>
+                                                      </ul>
+              </div>
+                      </div>
+        </div>
+              <div class="tabs-panel" id="primary-nav-tab-1">
+          <div class="row">
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3><a href="/research/">Research at Lancaster</a></h3>
+                                <ul>
+                                                            <li><a href="http://www.research.lancs.ac.uk/portal/">Research Directory</a></li>
+                                                                                <li><a href="/research/research-services/">Research Services</a></li>
+                                                                                <li><a href="/research/support-for-researchers/">Researcher Development</a></li>
+                                                                                <li><a href="/research/participate-in-research/">Participate in Research</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3>Research in Faculties</h3>
+                                <ul>
+                                                            <li><a href="/arts-and-social-sciences/research/">Arts and Social Sciences</a></li>
+                                                                                <li><a href="/fhm/research/">Health and Medicine</a></li>
+                                                                                <li><a href="/lums/research/">Management School</a></li>
+                                                                                <li><a href="/sci-tech/research/">Science and Technology</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns end">
+                                  <h3>Multidisciplinary Research</h3>
+                                <ul>
+                                                            <li><a href="/dsi/">Data Science Institute</a></li>
+                                                                                <li><a href="/materials-science-institute/">Materials Science Institute</a></li>
+                                                                                <li><a href="http://www.lancaster.ac.uk/social-futures/">Institute for Social Futures</a></li>
+                                                                                <li><a href="/security-lancaster/">Security Lancaster</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns end">
+                                  <h3><a href="/research/doctoral-academy/">Doctoral Academy</a></h3>
+                                <ul>
+                                                            <li><a href="/research/doctoral-academy/doctoral-training-centres/">Doctoral Training Centres</a></li>
+                                                                                <li><a href="/research/doctoral-academy/postgraduate-showcase/">Postgraduate Showcase</a></li>
+                                                                                <li><a href="/study/postgraduate/postgraduate-research-training/">Postgraduate Research Training</a></li>
+                                                      </ul>
+              </div>
+                      </div>
+        </div>
+              <div class="tabs-panel" id="primary-nav-tab-2">
+          <div class="row">
+                      </div>
+        </div>
+              <div class="tabs-panel" id="primary-nav-tab-3">
+          <div class="row">
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3><a href="/about-us/theuniversity/">The University</a></h3>
+                                <ul>
+                                                            <li><a href="/about-us/ourpeople/">Our People</a></li>
+                                                                                <li><a href="/about-us/rankings-and-reputation/">Our Reputation</a></li>
+                                                                                <li><a href="/about-us/our-principles/">Our Principles</a></li>
+                                                                                <li><a href="/news/">News</a></li>
+                                                                                <li><a href="/events/">Events</a></li>
+                                                                                <li><a href="/sustainability/">Sustainability</a></li>
+                                                                                <li><a href="/about-us/income-and-expenditure/">Income and expenditure</a></li>
+                                                                                <li><a href="/about-us/strategic-plan/">Strategic Plan</a></li>
+                                                                                <li><a href="/about-us/governance-and-compliance/">Governance and Compliance</a></li>
+                                                                                <li><a href="/faculties-and-departments/">Faculties &amp; Departments</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns ">
+                                  <h3><a href="/about-us/theuniversity/">Campus</a></h3>
+                                <ul>
+                                                            <li><a href="/about-us/theuniversity/our-campus/">About Our Campus</a></li>
+                                                                                <li><a href="/study/life-at-lancaster/culture-on-campus/">Culture on Campus</a></li>
+                                                                                <li><a href="https://www.lancasterarts.org/">Lancaster Arts</a></li>
+                                                                                <li><a href="https://lancastersu.co.uk/">Students' Union</a></li>
+                                                                                <li><a href="/study/open-days/">Visiting Campus</a></li>
+                                                                                <li><a href="/contact-and-getting-here/">Contact &amp; Getting Here</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns end">
+                                  <h3><a href="/study/life-at-lancaster/">Community</a></h3>
+                                <ul>
+                                                            <li><a href="/alumni/">Alumni</a></li>
+                                                                                <li><a href="/study/life-at-lancaster/city/">City of Lancaster</a></li>
+                    
+1f83
+                                                            <li><a href="/study/teaching-and-learning/collegiate-system/">Our Colleges</a></li>
+                                                                                <li><a href="/conferences/">Lancaster Conferences</a></li>
+                                                                                <li><a href="/study/life-at-lancaster/sport-at-lancaster/">Sport at Lancaster</a></li>
+                                                                                <li><a href="/study/life-at-lancaster/wellbeing-and-support/">Wellbeing &amp; Support</a></li>
+                                                      </ul>
+              </div>
+                          <div class="small-12 medium-6 large-3 columns end">
+                                  <h3><a href="/study/open-days/">Visit Us</a></h3>
+                                <ul>
+                                                            <li><a href="/study/open-days/undergraduate-open-days/">Undergraduate Open Days</a></li>
+                                                                                <li><a href="/study/open-days/postgraduate-open-days/">Postgraduate Open Days</a></li>
+                                                                                <li><a href="/study/open-days/campus-tours/">Campus Tours</a></li>
+                                                                                <li><a href="https://www.lancaster.ac.uk/conferences/booking/">Guest Rooms</a></li>
+                                                                                <li><a href="/schools/">Schools &amp; Colleges</a></li>
+                                                                                <li><a href="/opentoall/">Open to All</a></li>
+                                                                                <li><a href="http://www.lancaster.ac.uk/virtual-tour/">Virtual Tour</a></li>
+                                                      </ul>
+              </div>
+                      </div>
+        </div>
+              <div class="tabs-panel" id="primary-nav-tab-4">
+          <div class="row">
+                      </div>
+        </div>
+      
+      <!-- search-bar -->
+      <div class="tabs-panel search-bar" id="primary-nav-tab-search">
+        <div class="row column">
+          <form role="search" action="/search/" method="get">
+            <label for="f-search-input" class="show-for-sr">Main site search</label>
+            <input class="input-field search-field" name="q" type="search" placeholder="Search this site..." id="f-search-input">
+            <button type="submit" class="button">Search</button>
+          </form>
+          <script>
+            /*
+             * Ensure the input search boxes get the focus when the panel is opened
+             */
+            $(function() {
+              var searchDiv = $("#primary-nav-tab-search");
+              var searchDivMobile = $("#top-bar-search");
+              var observer = new MutationObserver(function(mutations) {
+                mutations.forEach(function(mutation) {
+                  if (mutation.attributeName === "class") {
+                    var id = $(mutation.target).prop('id');
+                    switch(id) {
+                      case 'top-bar-search':
+                        if (!$(mutation.target).hasClass('hide')) {
+                          $("#f-search-input-mobile").val('').focus();
+                        }
+                        break;
+                      case 'primary-nav-tab-search':
+                        if ($(mutation.target).hasClass('is-active')) {
+                          $("#f-search-input").val('').focus();
+                        }
+                        break;
+                    }
+                  }
+                });
+              });
+              observer.observe(searchDiv[0], {
+                attributes: true
+              });
+              observer.observe(searchDivMobile[0], {
+                attributes: true
+              });              
+            });
+          </script>
+          <div class="row column">
+           <a href="/a-z/">Or look in our A-Z index</a>
+          </div>
+        </div>
+      </div> <!-- end search-bar -->
+    </div> <!-- end tabs-content -->
+  </div> <!-- end primary-nav-tabs-panels -->
+</header>
+
+        <hr class="expanded bg-primary-red navigation-separator">
+    
+    <div class="main-container" id="main" role="main">
+            
+<section class="hero standard">
+  <img src="/media/lancaster-university/content-assets/images/home-page/students-walking-past-sports-pitches-hero-uoty-image.jpg" class="hero" alt="Alexandra Square">
+    <div class="row collapse">
+      <div class="column">
+        <div class="headline-panel centred ">
+          <h1>University of the Year 2018</h1>
+                          <p>Lancaster is The Times and Sunday Times University of the Year 2018.&nbsp;</p>                                      <a href="/about-us/rankings-and-reputation/" class="button" title="Link: Visit site">Find out why</a>
+                                </div>
+      </div>
+    </div>
+</section><script>
+_l.loadScript("/media/wdp/style-assets/javascript/live-search.js", function() {
+    LIVESEARCH.functions.strAjaxURL = LIVESEARCH.functions.strSiteURL
+    + '/media/wdp/style-assets/php/course-search-ajax.php';
+});
+</script>
+<section class="bg-grey">
+  <a name="d.en.351465" class="anchor"></a>
+    <div class="course-search combined">
+        <div class="row collapse">
+            <div class="small-12 large-8 large-centered columns">
+                <h2 class="show-for-medium">Find a Course</h2>
+                <div class="search-panel">
+                    <form id="frm-course-search" class="combined-search" data-ugurl="/study/undergraduate/courses/course-search/" data-pgurl="/study/postgraduate/postgraduate-courses/postgraduate-course-search/">
+                        <input type="hidden" id="search-category" value="All">
+                        <input
+                            type="hidden"
+                            id="search-type"
+                            value=""
+                            name="">
+                        <div class="input-group">
+                           <label for="search-query" class="show-for-sr">Course search</label>
+                            <input
+                                type="search"
+                                class="input-group-field"
+                                name="q"
+                                id="search-query"
+                                title="Find a course"
+                                placeholder="Course search"
+                                autocomplete="off">
+                        </div>
+                    </form>
+                </div>
+            </div>
+                        <div class="small-12 columns search-buttons">
+                <ul>
+                                                      <li>
+                        <a href="/study/undergraduate/courses/">Undergraduate courses A-Z</a>
+                    </li>
+                                                                        <li>
+                        <a href="/study/postgraduate/postgraduate-courses/">Postgraduate courses A-Z</a>
+                    </li>
+                                                  </ul>
+            </div>
+                    </div>
+    </div>
+    <script>
+        $('.combined-search #search-query').keydown(function(e) {
+            if (e.keyCode == 13) {
+                var focussedLink = $('.resultlist li.focussed');
+                if (focussedLink.length === 0) {
+                    e.preventDefault();
+                    return false;
+                }
+            }
+        });
+    </script>
+</section>
+
+<section class="icons bg-grey">
+  <a name="d.en.336305"></a>  <div class="grid-container">
+    <div class="grid-x grid-margin-x 
+1f6f
+small-up-1 medium-up-2 large-up-4" data-equalizer>
+                                    <div class="cell" data-equalizer-watch>
+              <a title="Link: Get a prospectus" href="/prospectus/">
+	            <svg>
+	              <use xlink:href="/media/wdp/style-assets/images/symbols.svg#prospectus"/>
+                </svg>
+                <p>Get a prospectus</p>
+	          </a>
+            </div>
+                                                <div class="cell" data-equalizer-watch>
+              <a title="Link: Open days and tours" href="/study/open-days/">
+	            <svg>
+	              <use xlink:href="/media/wdp/style-assets/images/symbols.svg#signpost"/>
+                </svg>
+                <p>Open days and tours</p>
+	          </a>
+            </div>
+                                                <div class="cell" data-equalizer-watch>
+              <a title="Link: Virtual open day" href="http://www.lancaster.ac.uk/virtual-open-day/">
+	            <svg>
+	              <use xlink:href="/media/wdp/style-assets/images/symbols.svg#compass"/>
+                </svg>
+                <p>Virtual open day</p>
+	          </a>
+            </div>
+                                                <div class="cell" data-equalizer-watch>
+              <a title="Link: Ask a student" href="/study/chat/">
+	            <svg>
+	              <use xlink:href="/media/wdp/style-assets/images/symbols.svg#speech-bubble"/>
+                </svg>
+                <p>Ask a student</p>
+	          </a>
+            </div>
+                      </div>
+  </div>
+</section>
+
+<section class="bg-image right">
+    <a name="d.en.396748"></a>
+    <div class="lazy-loaded-css-background-actual right"
+         data-lazy-load
+         src=""
+         data-src="/media/lancaster-university/content-assets/images/home-page/iceland-glacier-research-hero.jpg"
+    ></div>
+    <div class="lazy-loaded-css-background-placeholder"
+         style='background-image: url("/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png")'
+    ></div>
+    <img data-lazy-load
+         src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png"
+         data-src="/media/lancaster-university/content-assets/images/home-page/iceland-glacier-research-hero.jpg"
+         alt=""
+    />
+
+    <div class="row panel-container">
+        <div class="column small-12 medium-6 headline-panel ">
+                            <h2>Scientists discover Icelandic glacier is releasing large amounts of methane</h2>
+                        <p>The Lancaster University-led research, which is featured in Scientific Reports, is the first published field study to show methane release from glaciers on this scale.</p>                            <a class="button" href="http://www.lancaster.ac.uk/news/volcanoes-and-glaciers-combine-as-powerful-methane-producers-2" title="Link: Read more">Read more</a>
+                    </div>
+    </div>
+</section><section class="inline-content bg-none">
+  <a name="d.en.377434"></a>
+  <div class="row">
+    <div class="small-12 medium-4 columns image"><a href="http://www.lancaster.ac.uk/virtual-open-day/">
+    <figure>
+        
+        <img    data-lazy-load
+        src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png" 
+        data-src="/media/lancaster-university/content-assets/images/home-page/virtual-open-day-400x300.jpg" 
+        alt="Lancaster University's Alexandra Square"
+/>
+        
+        
+    </figure>
+</a></div>
+    <div class="small-12 medium-8 columns text">
+    <a name="virtual-open-day-image-with-text-panel"></a>
+    <h2>Experience our virtual open day</h2>
+    <p>Take five minutes to experience our campus with our&nbsp;<strong>Virtual Open Day</strong>&nbsp;and discover what it&rsquo;s like to live and learn at Lancaster University. Explore spaces to study, live and have fun - on campus and in the nearby City of Lancaster.&nbsp;</p>
+    <a href="http://www.lancaster.ac.uk/virtual-open-day/" class="button" title="Link: Visit site">Virtual Open Day</a>
+</div>
+  </div>
+</section>
+<section class="bg-image right">
+    <a name="d.en.387148"></a>
+    <div class="lazy-loaded-css-background-actual right"
+         data-lazy-load
+         src=""
+         data-src="/media/lancaster-university/LancasterUniLibrary20160113_2719-croppedfortimesannouncement.jpg"
+    ></div>
+    <div class="lazy-loaded-css-background-placeholder"
+         style='background-image: url("/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png")'
+    ></div>
+    <img data-lazy-load
+         src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png"
+         data-src="/media/lancaster-university/LancasterUniLibrary20160113_2719-croppedfortimesannouncement.jpg"
+         alt=""
+    />
+
+    <div class="row panel-container">
+        <div class="column small-12 medium-6 headline-panel ">
+                            <h2>Lancaster in UK top 3 for graduate employment</h2>
+                        <p>The Times and Sunday Times League Table 2019 has ranked Lancaster third in the UK for graduate employment prospects. Lancaster is also the highest ranked university in the North.&nbsp;</p>                            <a class="button" href="http://www.lancaster.ac.uk/news/times-and-sunday-times-rank-lancaster-in-uk-top-three-for-graduate-employment" title="Link: Read more">Read more</a>
+                    </div>
+    </div>
+</section><!-- Content Type - Foundation Section Heading -->
+<section class="heading bg-grey text-left" id="section336307" data-magellan-target="section336307">
+ <a name="d.en.336307"></a>
+  <div class="row">
+    <div class="column medium-12 large-12 ">
+      <h2>News</h2>
+      
+    </div>
+  </div>
+</section>
+<section class="card-carousel bg-grey">
+  <a name="d.en.367437"></a>    <div id="article-carousel-wrapper-104241058">
+      <div class="article-carousel-wrapper">
+        <div class="carousel-arrow left-arrow column show-for-medium ">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.29 15.29">
+              <path d="M10,2.14a7.65,7.65,0,1,0,7.65,7.65A7.65,7.65,0,0,0,10,2.14Zm1.14,5.12L8.63,9.78l2.46,2.46v1.31L7.35,9.82,11.15,6Z" transform="translate(-2.35 -2.14)"/>
+            </svg>
+        </div>
+        <div class="row column small-12 medium-10 large-9">
+        <div id="article-carousel-104241058" class="article-carousel ">
+
+                <div class="column medium-4 article-card">
+            <div class="card-wrapper row column">
+                <a href="/news/new-vision-for-morecambes-eden-project-revealed">
+                    <div class="card-image">
+                                                <img
+                            data-lazy-load
+                            src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png"
+                            data-src='https://cisweb.lancaster.ac.uk/img/cwip/cisweb.lancaster.ac.uk/EventsMedia/Eden_Lancaster_Aerial_004-636784094229903162.jpg?mode=crop&width=550&height=300&center=0.50,0.50'
+                            alt='An artist’s impression of Eden Project North, a proposed new attraction for the town of Morecambe in Lancashire. (credit: Grimshaw Architects)'
+                        />
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title">New vision for Morecambe's Eden project revealed</h3>
+                        <p>The Eden Project has unveiled its vision for Eden Project North, a major new attraction in Morecambe, Lancashire.</p>                    </div>
+                </a>
+            </div>
+        </div>
+                <div class="column medium-4 article-card">
+            <div class="card-wrapper row column">
+                <a href="
+1f89
+/news/how-lancaster-university-is-providing-practical-support-to-help-rebuild-mosul-university">
+                    <div class="card-image">
+                                                <img
+                            data-lazy-load
+                            src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png"
+                            data-src='https://cisweb.lancaster.ac.uk/img/cwip/cisweb.lancaster.ac.uk/EventsMedia/University of Mosul campus central square and the completely burned-out Central Library - news-636784767370318029.jpg?mode=crop&width=550&height=300&center=0.55,0.52'
+                            alt='Damaged buildings on Mosul University's campus'
+                        />
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title">How Lancaster University is providing practical support to help rebuild Mosul University</h3>
+                        <p>Academics from Lancaster University have been helping Mosul University rebuild after a 'dark age'.</p>                    </div>
+                </a>
+            </div>
+        </div>
+                <div class="column medium-4 article-card">
+            <div class="card-wrapper row column">
+                <a href="/news/lancaster-welcomes-medieval-scholars-from-the-university-of-lausanne">
+                    <div class="card-image">
+                                                <img
+                            data-lazy-load
+                            src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png"
+                            data-src='https://cisweb.lancaster.ac.uk/img/cwip/cisweb.lancaster.ac.uk/EventsMedia/News Item Image 1-636782166353125816.jpg?mode=crop&width=550&height=300&center=0.46,0.48'
+                            alt='Collaborators from Lancaster University and the University of Lausanne, Switzerland. From left: Dr Clare Egan, Lecturer in Medieval and Early Modern Literature, Lancaster; Dr Liz Oakley-Brown, Senior Lecturer in Shakespeare and Renaissance Writing, Lancaster; Professor Denis Renevey, Professor of Medieval Language and Literature, Lausanne; Professor Christiania Whitehead, Professor of Middle English Literature, Lausanne; Hazel Blair, Doctoral Research Fellow, Lausanne'
+                        />
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title">Lancaster welcomes medieval scholars from the University of Lausanne   </h3>
+                        <p>Lancaster University and the University of Lausanne, Switzerland have teamed up for a prospective Masters module in medieval literature, taught at both institutions.</p>                    </div>
+                </a>
+            </div>
+        </div>
+                <div class="column medium-4 article-card">
+            <div class="card-wrapper row column">
+                <a href="/news/uk-needs-to-redesign-health-policies-for-men">
+                    <div class="card-image">
+                                                <img
+                            data-lazy-load
+                            src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png"
+                            data-src='https://cisweb.lancaster.ac.uk/img/cwip/cisweb.lancaster.ac.uk/EventsMedia/stress-636779786116569564.jpg?mode=crop&width=550&height=300&center=0.18,0.44'
+                            alt='A stressed man sat at a desk'
+                        />
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title">UK needs to redesign health policies for men</h3>
+                        <p>UK health policies should be redesigned to become more accessible for men, according to a new report by the Work Foundation.</p>                    </div>
+                </a>
+            </div>
+        </div>
+                <div class="column medium-4 article-card">
+            <div class="card-wrapper row column">
+                <a href="/news/innovative-research-methods-needed-to-deal-with-recreational-drug-use">
+                    <div class="card-image">
+                                                <img
+                            data-lazy-load
+                            src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png"
+                            data-src='https://cisweb.lancaster.ac.uk/img/cwip/cisweb.lancaster.ac.uk/EventsMedia/_JJJ6294-636779558476160118.jpg?mode=crop&width=550&height=300&center=0.41,0.49'
+                            alt='Dr Karenza Moore'
+                        />
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title">Innovative research methods needed to deal with recreational drug use</h3>
+                        <p>A study co-authored by Lancaster University Sociology Lecturer Dr Karenza Moore says more attention needs to be paid to recreational drug use at private parties, as well as bars and clubs, in order to better develop drug policies and interventions across Europe.</p>                    </div>
+                </a>
+            </div>
+        </div>
+                <div class="column medium-4 article-card">
+            <div class="card-wrapper row column">
+                <a href="/news/creating-a-sustainable-safe-water-economy-in-africa">
+                    <div class="card-image">
+                                                <img
+                            data-lazy-load
+                            src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png"
+                            data-src='https://cisweb.lancaster.ac.uk/img/cwip/cisweb.lancaster.ac.uk/EventsMedia/R_African_Researchers_900x300-636779029660836675.jpg?mode=crop&width=550&height=300&center=0.50,0.50'
+                            alt='Recirculate fellows'
+                        />
+                    </div>
+                    <div class="card-content">
+                        <h3 class="title">Creating a sustainable safe water economy in Africa</h3>
+                        <p>African research fellows return home inspired to implement projects to improve water, sanitation and sustainable production.</p>                    </div>
+                </a>
+            </div>
+        </div>
+        
+        </div>
+        </div>
+        <div class="carousel-arrow right-arrow column show-for-medium ">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.29 15.29">
+              <path d="M10,2.14a7.65,7.65,0,1,0,7.65,7.65A7.65,7.65,0,0,0,10,2.14ZM8.6,13.55V12.24l2.46-2.46L8.55,7.26V6l3.8,3.8Z" transform="translate(-2.35 -2.14)"/>
+            </svg>
+        </div>
+      </div>
+      <!-- mobile controls -->
+      <div class="row article-carousel-wrapper show-for-small-only">
+        <div class="carousel-arrow left-arrow text-right column small-3 small-offset-3">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.29 15.29">
+            <path d="M10,2.14a7.65,7.65,0,1,0,7.65,7.65A7.65,7.65,0,0,0,10,2.14Zm1.14,5.12L8.63,9.78l2.46,2.46v1.31L7.35,9.82,11.15,6Z" transform="translate(-2.35 -2.14)"/>
+          </svg>
+        </div>
+        <div class="carousel-arrow right-arrow text-left column small-3">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.29 15.29">
+            <path d="M10,2.14a7.65,7.65,0,1,0,7.65,7.65A7.65,7.65,0,0,0,10,2.14ZM8.6,13.55V12.24l2.46-2.46L8.55,7.26V6l3.8,3.8Z" transform="translate(-2.35 -2.14)"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+       <div class="small-12 column">
+         <p>More <a href="/news/">News</a></p>
+       </div>
+    </div>
+    <script>
+    $(document).ready(function() {
+      var slickId = '#article-carousel-
+1f5b
+104241058';
+      var parentId = '#article-carousel-wrapper-104241058';
+      $(slickId).slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        lazyLoad: 'progressive',
+        centerMode: true,
+        nextArrow: parentId + ' .carousel-arrow.right-arrow',
+        prevArrow: parentId + ' .carousel-arrow.left-arrow',
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 2
+            }
+          },
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              centerMode: false
+            }
+          }
+        ]
+      });
+      $(slickId).on('afterChange', function(slick, currentSlide) {
+        var slides = document.querySelectorAll(slickId + ' .slick-slide');
+        var toggleClass = 'unavailable';
+
+        if (slides[0].getAttribute('aria-hidden') === 'false') {
+          document.querySelector(parentId + ' .carousel-arrow.left-arrow').classList.add(toggleClass);
+        }
+        else {
+          document.querySelector(parentId + ' .carousel-arrow.left-arrow').classList.remove(toggleClass);
+        }
+
+        if (slides[slides.length - 1].getAttribute('aria-hidden') === 'false') {
+          document.querySelector(parentId + ' .carousel-arrow.right-arrow').classList.add(toggleClass);
+        }
+        else {
+          document.querySelector(parentId + ' .carousel-arrow.right-arrow').classList.remove(toggleClass);
+        }
+      });
+
+      // make the cards the same height
+      var equalizeCards = function(selector) {
+        var resetCards = function() {
+          var cards = document.querySelectorAll(selector + ' .card-wrapper .card-content');
+          Array.prototype.forEach.call(cards, function(card) {
+            card.style.height = 'auto';
+          });
+        };
+        var setCardSize = function() {
+          var maxHeight = 0;
+          var cards = document.querySelectorAll(selector + ' .card-wrapper .card-content');
+          Array.prototype.forEach.call(cards, function(card) {
+            var height = card.getBoundingClientRect().height;
+            if (height > maxHeight) {
+              maxHeight = Math.ceil(height);
+            }
+          });
+          Array.prototype.forEach.call(cards, function(card) {
+            card.style.height = maxHeight.toString() + 'px';
+          });
+        };
+
+        window.addEventListener('resize', function(e) {
+          setTimeout(function() {
+            resetCards();
+            setCardSize();
+          }, 200);
+        });
+
+        return {
+          init: function() {
+            setCardSize();
+          }
+        };
+      };
+
+      equalizeCards(slickId).init();
+
+      $('.article-card img').unveil();
+    });
+    </script>
+</section><section class="inline-content bg-none">
+  <a name="d.en.394136"></a>
+  <div class="row">
+    <div class="small-12 medium-8 columns text">
+    <a name="lancaster-in-world-top-50-for-arts-and-humanities"></a>
+    <h2>Lancaster in world top 50 for Arts and Humanities</h2>
+    <p>Lancaster has risen 10 places to <strong>joint 44th</strong>&nbsp;in The&nbsp;Times Higher Education's&nbsp;World University Rankings 2019 by subject for Arts and Humanities.</p>
+    <a href="http://www.lancaster.ac.uk/news/the-ranks-lancaster-in-world-top-50-for-arts-humanities" class="button" title="Link: Visit site">Read more</a>
+</div>
+    <div class="small-12 medium-4 columns image"><a href="http://www.lancaster.ac.uk/news/the-ranks-lancaster-in-world-top-50-for-arts-humanities">
+    <figure>
+        
+        <img    data-lazy-load
+        src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png" 
+        data-src="/media/lancaster-university/FASSannouncement-thumbnailimage.jpg" 
+        alt="Students in Lancaster University's library"
+/>
+        
+        
+    </figure>
+</a></div>
+  </div>
+</section>
+<section class="foundation-chevron foundation-chevron--align-right bg-none">
+    <a name="d.en.394558"></a>
+    <div class="grid-x foundation-chevron__background">
+        <div class="cell foundation-chevron__chevron border-none"></div>
+        <div class="cell foundation-chevron__image">
+            <div class="lazy-loaded-css-background-actual"
+                 data-lazy-load
+                 src=""
+                 data-src="/media/lancaster-university/content-assets/images/home-page/mobile-website-blue.jpg"
+            ></div>
+            <div class="lazy-loaded-css-background-placeholder"
+                 style='background-image: url("/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png")'
+            ></div>
+        </div>
+    </div>
+
+    <div class="foundation-chevron__content-wrapper">
+        <div class="foundation-chevron__content">
+            <h2>Win a £25 Amazon gift voucher</h2>
+            <p>Give feedback and help make our website easier for you! Complete our survey for the chance to win a &pound;25 Amazon gift voucher</p>                        <a href="https://lancasteruni.eu.qualtrics.com/jfe/form/SV_8CCeJBrfE9In2OF" class="button">Complete the survey</a>
+                    </div>
+    </div>
+</section>
+<section class="features bg-grey">
+  <a name="d.en.378102"></a>  <!-- check to see if script is already loaded, if not load it -->
+      <div class="row" data-equalizer data-equalize-on="medium">
+        
+                                                                <div class="small-12 medium-4 large-4 column">
+             <div class="feature">
+                <a href="/alumni/" class="feature-link">
+                 <img data-lazy-load src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png" data-src="/media/lancaster-university/content-assets/images/home-page/alumni-graduation-2-text-panel-image.jpg" alt="">         
+                 <div class="title">
+                   <h3 data-equalizer-watch>Alumni</h3> 
+                 </div>
+                      <div class="caption"><p>As a Lancaster graduate you join a growing global family. Discover ways to stay in touch.</p></div>               </a>
+             </div>
+           </div>
+               
+                                                                <div class="small-12 medium-4 large-4 column">
+             <div class="feature">
+                <a href="/business/" class="feature-link">
+                 <img data-lazy-load src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png" data-src="/media/lancaster-university/content-assets/images/home-page/business-text-panel.jpg" alt="">         
+                 <div class="title">
+                   <h3 data-equalizer-watch>Business</h3> 
+                 </div>
+                      <div class="caption"><p>Our experts could help you grow your business. Read more about our services, from consultancy to executive education.</p></div>               </a>
+             </div>
+           </div>
+               
+                                                                <div class="small-12 medium-4 large-4 column">
+             <div class="feature">
+                <a href="/events/" class="feature-link">
+                 <img data-lazy-load src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png" data-src="/media/lancaster-university/content-assets/images/home-page/community-day-children-feature-box.jpg" alt="">         
+                 <div class="title">
+                   <h3 data-equalizer-watch>Events</h3> 
+                 </div>
+                      <div class="caption"><p>You don't have to be a student to get involved. Find out about public lectures, exhibitions and community events.</p></div>               </a>
+             </div>
+           </div>
+       
+2af4
+          </div>
+</section><!--CONTENT TYPE: Foundation Social Feed-->
+
+<section class="social-feed">
+  <a name="d.en.358176"></a>    <div class="expanded row large-collapse">
+                        <div class="small-12 medium-6 large-3 columns twitter-container" data-equalizer-watch>
+            <div class="twitter">
+              <img class="icon" src="/media/wdp/style-assets/images/svg/twitter-logo.svg" alt="twitter-icon" />
+                                                          
+                                    <div class="profile-image">
+                       <img src="//pbs.twimg.com/profile_images/878207781827903488/RLv3roLp_normal.jpg" alt="Lancaster University logo" />
+                   </div>  
+                   <p class="user">
+                     Lancaster University<br> <a href="https://twitter.com/intent/user?screen_name=LancasterUni" title="View this author's profile" rel="external" target="_blank">@LancasterUni</a>
+                   </p>
+                   <p>First sneak peek inside the new <a href="http://www.twitter.com/lancasteronice">@lancasteronice</a>! <a target="_new" href="http://twitter.com/search?q=loveLancaster">#loveLancaster</a> <a target="_blank" href="https://t.co/vnKyvKGJBM">https://t.co/vnKyvKGJBM</a></p>
+                   <div class="time">
+                     10 hours ago                   </div>
+                                             </div>
+          </div>
+                                                                                                <div class="small-12 medium-6 large-3 columns">
+            <div class="image instagram">
+              
+        <div    class='lazy-loaded-css-background-actual'
+                data-lazy-load
+                src=''
+                data-src='/media/lancaster-university/content-assets/images/home-page/home-page-instagram-social-feed-image.jpg'
+        ></div>
+        <div    class='lazy-loaded-css-background-placeholder'
+                style='background-image: url("/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png")'
+        ></div>              <div class="lazy-loaded-css-content">
+                <img class="icon" src="/media/wdp/style-assets/images/svg/instagram-sq.svg" alt="instagram-icon" />
+                  <a href="https://www.instagram.com/lancasteruni">
+                    <p>&#64;lancasteruni</p>
+                  </a>
+                </div>
+              </div>
+          </div>
+                                                                          <div class="small-12 medium-6 large-3 columns">
+              <div class="image facebook">
+                
+        <div    class='lazy-loaded-css-background-actual'
+                data-lazy-load
+                src=''
+                data-src='https://scontent.xx.fbcdn.net/v/t15.13418-10/s720x720/46143057_355306388365956_8163029823623528448_n.jpg?_nc_cat=104&_nc_ht=scontent.xx&oh=990e832a17ba043923cd77d09ebeef34&oe=5C793B7D'
+        ></div>
+        <div    class='lazy-loaded-css-background-placeholder'
+                style='background-image: url("/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png")'
+        ></div>                <div class="lazy-loaded-css-content">
+                  <img class="icon" src="/media/wdp/style-assets/images/svg/facebook-sq.svg" alt="facebook-icon" />
+                  <div class="post-details">
+                    <div class="profile-image">
+                      <img src='https://scontent.xx.fbcdn.net/v/t1.0-1/p50x50/10660253_10152238976327827_379240980126171323_n.jpg?_nc_cat=107&_nc_ht=scontent.xx&oh=c3ec809984023876c1554062a358cbd4&oe=5CAFB945' alt="Lancaster University logo" />
+                    </div>
+                    <div class="profile-details">
+                      <div class="user"> <a href="https://www.facebook.com/lancasteruniversity/">Lancaster University</a></div>
+                      <div class="time">15 hours ago</div>
+                    </div>
+                    <div class="post-content">
+                      <div class="post-message">
+                        From extraordinary views to duck feeding opportunities, The Lake District, Cumbria is definitely a must-visit spot! 🍂🌊
+
+Watch Digital Content Ambassador Annabelle's vlog to make the most out of your adventure:                      </div>
+                      <span><a href="https://www.facebook.com/38156407826/posts/10155571974632827/">Read more</a></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                                                                                                          <div class="small-12 medium-6 large-3 columns">
+              <div class="image video-container">
+                
+        <div    class='lazy-loaded-css-background-actual'
+                data-lazy-load
+                src=''
+                data-src='/media/lancaster-university/content-assets/images/home-page/home-page-video-social-feed-image.jpg'
+        ></div>
+        <div    class='lazy-loaded-css-background-placeholder'
+                style='background-image: url("/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png")'
+        ></div>                <div class="lazy-loaded-css-content">
+                  <a href="https://www.youtube.com/watch?v=phgcB-eWs8A">
+                    <img class="icon" src="/media/wdp/style-assets/images/svg/youtube-sq.svg" alt="video-icon" />
+                    <div class="title">
+                      <p>Welcome to Lancaster!</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+                                  </div>
+</section>
+
+<script>
+    $('div.image').unveil();
+</script>
+    </div>
+    <!--end main container-->
+    <a href="#top" class="back-to-top">
+        <svg class="icon">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/symbols.svg#up-arrow"></use>
+        </svg>
+        <p>Top</p>
+    </a>
+    
+
+
+    <footer role="contentinfo" id="footer">
+      <!-- Footer Code -->
+      
+  <div class="grid-container main-footer">
+    <div class="grid-x grid-padding-x grid-padding-y">
+      <div class="cell medium-3 large-2 medium-order-1 large-order-1">
+        <h4>Quick Links</h4>
+        <ul class="menu vertical">
+          <!-- DPMT Fetch Current Section Links -->
+<li><a href="/study/undergraduate/">Undergraduate Study</a></li><li><a href="/study/postgraduate/">Postgraduate Study</a></li><li><a href="/current-students/">For students</a></li><li><a href="/current-staff/">For staff</a></li><li><a href="/a-z/">A-Z Index</a></li><li><a href="/contact-and-getting-here/">Contact and Getting Here</a></li><li><a href="https://hr-jobs.lancs.ac.uk/">Job Vacancies</a></li><li><a href="/study/teaching-and-learning/collegiate-system/">Colleges</a></li><li><a href="/library/">Library</a></li><li><a href="/online-payments/">Online Payments</a></li><li><a href="https://lancastersu.co.uk/">Students' Union</a></li>        </ul>
+      </div>
+      <div class="cell medium-4 large-2 show-for-medium medium-order-2 large-order-2">
+        <h4>Faculties &amp; Depts</h4>
+        <ul class="menu vertical">
+          <li><a href="/arts-and-social-sciences/">Arts &amp; Social Sciences</a></li><li><a href="http://www.lancaster.ac.uk/fhm/">Health &amp; Medicine</a></li><li><a href="/lums/">Management School</a></li><li><a href="http://www.lancaster.ac.uk/sci-tech/">Science &amp; Technology</a></li><li><a href="/faculties-and-departments/">Departments, Institutes &amp; Centres</a></li><li><a href="http://www.lancaster.ac.uk/the-work-foundation/">The Work Foundation</a></li><li><a href="http://www.lancaster.edu.gh/">Ghana</a></li>        </ul>
+      </div>
+
+      <div class="cell small-12 medium-5 large-2 medium-order-4 large-order-3">
+        <h4>Connect</h4>
+        <ul class="menu vertical connect">
+          <li><a title="External Link: Facebook" href="http://www.facebook.com/lancasteruniversity/"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#facebook"></use>
+          </svg><span>Facebook</span></a></li>
+          <li><a title="External Link: Twitter" href="https://www.twitter.com/LancasterUni"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#twitter"></use>
+          </svg><span>Twitter</span></a></li>
+          <li><a title="External Link: The Student Room" href="http://www.thestudentroom.co.uk/forumdisplay.php?f=157"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#tsr"></use>
+          </svg><span>The Student Room</span></a></li>
+          <li><a title="External Link: Instagram" href="http://instagram.com/lancasteruni/"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#instagram"></use>
+          </svg><span>Instagram</span></a></li>
+          <li><a title="External Link: YouTube" href="http://www.youtube.com/lancasteruniversity/"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#youtube"></use>
+          </svg><span>YouTube</span></a></li>
+          <li><a title="External Link: LinkedIn" href="http://www.linkedin.com/edu/school?id=12603&amp;trk=tyah"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#linkedin"></use>
+          </svg><span>LinkedIn</span></a></li>
+          <li><a title="External Link: Weibo" href="http://e.weibo.com/lancasteruni"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#weibo"></use>
+          </svg><span>Weibo</span></a></li>
+          <li><a title="External Link: WeChat" href="http://www.lancaster.ac.uk/wechat/"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/social-media-symbols.svg#wechat"></use>
+          </svg><span>WeChat</span></a></li>
+        </ul>
+      </div>
+
+      <div class="cell medium-5 large-auto medium-order-3 large-order-4">
+        <h4>Contact Us</h4>
+        <div class="grid-x grid-padding-y">
+          <div class="cell small-6 medium-7 large-7">
+            <ul class="menu vertical">
+              <li>
+                
+dd7
+<address itemprop='address' itemscope='' itemtype='http://schema.org/PostalAddress' class='t11px'><span itemprop='name'>Lancaster University</span><br><span itemprop='streetAddress'>Bailrigg</span><br><span itemprop='addressLocality'>Lancaster</span><br><span itemprop='addressCountry'>United Kingdom</span><br><span itemprop='postalCode'>LA1 4YW</span><br></address>              </li>
+            </ul>
+            <ul class="menu vertical contact-details">
+            <li><span class="phone-number"><a href="tel:+44 (0)1524 65201"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/symbols.svg#phone"></use>
+          </svg>+44 (0)1524 65201</a></span></li>                              <li><a href="/contact-and-getting-here/"><svg class="icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/media/wdp/style-assets/images/symbols.svg#map-marker"></use>
+          </svg>Find us</a></li>            </ul>
+          </div>
+          <div class="cell small-6 medium-5 large-5">
+            <img data-lazy-load src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png" 
+		 data-src='/media/wdp/style-assets/images/location-map.svg' 
+                 alt="Lancaster University location in the UK" />
+          </div>
+        </div>
+      </div>
+      
+      <div class="cell medium-7 large-2 show-for-medium awards medium-order-5 large-order-5">
+        <img data-lazy-load
+	     src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png"
+	     data-src='/media/lancaster-university/content-assets/images/footer-images/tef-gold-landscape-reversed-words.svg'
+	     alt="TEF Gold Award logo"
+	/>
+	<img data-lazy-load
+	     src="/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png"
+	     data-src='/media/wdp/style-assets/images/university-of-the-year-logo.svg'
+	     alt="Times University of the Year Award logo"
+	/>
+	<img data-lazy-load
+	     src = "/media/lancaster-university/content-assets/images/foundation/placeholders/feature-550x300.png"
+	     data-src='/media/lancaster-university/content-assets/images/footer-images/Queens-Anniversary-Prizes-2015.jpg'
+	     alt="Queen's Anniversary Prize logo"
+	/>
+      </div>
+    </div>
+  </div>
+
+  <div class="final">
+    <p class="text-center">
+      <a href="/compliance/legalnotice/">Legal notice</a> |
+      <a href="/freedom-of-information/">Freedom of Information</a> |
+      <a href="/compliance/privacy/">Privacy and Cookies Notices</a> |
+      &copy;
+      2018 Lancaster University. All rights reserved.
+    </p>
+  </div>
+    </footer>
+
+    </div>
+    <!--end site container-->
+</div>
+<!-- end foundation container -->
+
+<script type="text/javascript" src="/media/wdp/style-assets/javascript/jquery.sticky.min.js"></script> <!-- jquery.sticky -->
+<script type="text/javascript" src="/media/wdp/style-assets/javascript/foundation/foundation.min.js"></script> <!-- foundation.min.js -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+
+<script>
+$(document).foundation();
+$(document).ready(function() {
+  scriptHandler.addScript('/media/wdp/style-assets/javascript/ilightbox.js')
+    .then(function() {
+      scriptHandler.addScript("/media/wdp/style-assets/javascript/foundation/foundationFooter.bundle.js");
+    });
+});
+</script>
+</body>
+
+</html>
+0
+

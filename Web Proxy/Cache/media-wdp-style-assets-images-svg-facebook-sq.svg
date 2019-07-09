@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Date: Sat, 24 Nov 2018 07:57:50 GMT
+Server: Apache
+Last-Modified: Thu, 18 Jan 2018 11:02:44 GMT
+ETag: "47f4259e-37f-5630ae73e5d00"
+Accept-Ranges: bytes
+Content-Length: 895
+Vary: User-Agent
+Content-Type: image/svg+xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#3B5998;}
+	.st2{fill:#3D5A98;}
+</style>
+<rect class="st0" width="200" height="200"/>
+<path class="st1" d="M0,0v200h200V0H0z"/>
+<g>
+	<path class="st0" d="M153.2,157c3.5,0,6.3-2.8,6.3-6.3V48.3c0-3.5-2.8-6.3-6.3-6.3H50.8c-3.5,0-6.3,2.8-6.3,6.3v102.3
+		c0,3.5,2.8,6.3,6.3,6.3H153.2z"/>
+	<path class="st2" d="M123.8,157v-44.5h14.9l2.2-17.4h-17.2V84c0-5,1.4-8.4,8.6-8.4l9.2,0V60.1c-1.6-0.2-7-0.7-13.4-0.7
+		c-13.3,0-22.3,8.1-22.3,22.9v12.8h-15v17.4h15V157H123.8z"/>
+</g>
+</svg>

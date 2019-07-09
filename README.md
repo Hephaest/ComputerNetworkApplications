@@ -321,6 +321,7 @@ appropriate header (which will contain the Status-Code 200). Else, it will send 
 web page to the client with HTTP response message (which will contain 404 Not Found" status
 line)". HTTP request and response message format are shown in Figure 5.(a) and Figure 5.(b).
 <p align="center"><img src ="images/f4.jpg" width = "600px"></p>
+<p align="center"><img src ="images/f5.png" width = "600px"></p>
 
 ## Function Implementations
 Based on the above principles, firstly, create a socket which could support IPv4 and bind to a

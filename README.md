@@ -44,7 +44,7 @@ In practice, we can analyse and determine the network failures by using `ping` c
 Ping traditionally uses **Internet Control Message Protocol** (**ICMP**) messages to measure delay and loss in computer networks: localhost sends echo request messages (with an ICMP type code of 8) in ICMP packets to another host. Once a message has reached that host, it is sent back to the sender. The localhost then unpacks the packet and extract the ICMP type code and match the ID between the request and reply. If the remote host responds with an echo reply message (with an ICMP type code of 0), then we can calculate the period of time elapsed between sending the request and receiving the reply, in turn, accurately determine the network delay between the two hosts.
 
 **Attention**: The structure of IP datagram and ICMP error codes (with an ICMP type code of 3) are shown as follows. Internet checksum is also the important part of the packet but it’s not the core of my function implementations.
-<p align="center"><img src ="images/f1.jpg" width = "500px"></p>
+<p align="center"><img src ="images/f1.jpg" width = "600px"></p>
 <p align="center"><img src ="images/f2.jpg"></p>
 
 ## Function Implementations

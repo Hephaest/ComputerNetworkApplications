@@ -143,7 +143,7 @@ def ping(host, count_num="4", time_out="1"):
     ......
 ```
 ## Result
-```Python
+```
 C:\Users\asus\Desktop\lab_solution\ICMP Ping>ICMPPing.py>ping www.baidu.com
 Pinging www.baidu.com [111.13.100.92] with 32 of data:
 Reply from 111.13.100.92: bytes = 32 time = 28ms TTL = 51.
@@ -275,7 +275,7 @@ def trace_route(host, timeout=2):
     sys.stdout.write("\nTrace complete.\n\n")
 ```
 ## Result
-```Python
+```
 Over a maximum of 30 hops:
     Tracing route to www.baidu.com [111.13.100.91]:
     1 16 ms 15 ms 15 ms 10.129.0.1
@@ -460,7 +460,7 @@ while True:
 ```
 ## Result
 ### WebServer.py
-```Python
+```
 you can test the web server by accessing: http://10.129.34.15:8899/hello.html
 Wait for TCP clients...
 Client (10.129.34.15: 6123) is coming...
@@ -473,7 +473,7 @@ Hello, which document do you want to query?
 I want to query: hello.html
 ```
 ### Client.py
-```Python
+```
 Web server responded to your request:
 HTTP/1.1 200 OK
 Web server responded to your request:
@@ -708,7 +708,7 @@ def start_listen(tcp_socket, client_ip, client_port):
 ## Result
 ### Browser Test
 ### WebProxy.py
-```Python
+```
 C:\Users\asus\Desktop\lab_solution\Web Proxy>python WebProxy.py 8899
 Wait for TCP clients...
 wait for request:

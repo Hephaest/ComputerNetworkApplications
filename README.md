@@ -530,6 +530,8 @@ in entity body.
 HTTP response message back.
 
 The simplified process is shown as follows.
+<p align="center"><img src ="images/f6.jpg" width = "600px"></p>
+
 ## Function Implementations
 Based on the above principles, firstly, create a socket which could support IPv4 and bind to a
 high numbered port above 1024. The Web Proxy is similar to the Web Server except for single threaded.

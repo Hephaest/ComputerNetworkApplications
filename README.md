@@ -713,8 +713,7 @@ C:\Users\asus\Desktop\lab_solution\Web Proxy>python WebProxy.py 8899
 Wait for TCP clients...
 wait for request:
 client is coming: 127.0.0.1:4596
-Client want to GET the s-wd-facebook-rsv_bp-0-ch-tn-baidu-bar-rsv_spt-3-ie-
-utf-8-rsv_enter-1-oq-face-f-3-inputT-3356.
+Client want to GET the s-wd-facebook-rsv_bp-0-ch-tn-baidu-bar-rsv_spt-3-ie-utf-8-rsv_enter-1-oq-face-f-3-inputT-3356.
 File is not in the cache!
 proxyserver have found the host.
 Poxy server is receiving data...

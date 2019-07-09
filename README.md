@@ -45,6 +45,7 @@ Ping traditionally uses **Internet Control Message Protocol** (**ICMP**) message
 
 **Attention**: The structure of IP datagram and ICMP error codes (with an ICMP type code of 3) are shown as follows. Internet checksum is also the important part of the packet but it’s not the core of my function implementations.
 <p align="center"><img src ="images/f1.jpg"></p>
+<p align="center"><img src ="images/f2.jpg"></p>
 
 ## Function Implementations
 Based on the above principles, firstly, I need to create a socket associated with protocol ICMP and set the timeout to control the time socket used to receive a packet.

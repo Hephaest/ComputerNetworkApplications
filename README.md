@@ -717,6 +717,8 @@ def start_listen(tcp_socket, client_ip, client_port):
 ```
 ## Result
 ### Browser Test
+<p align="center"><img src ="images/f7.jpg" width = "600px"></p>
+
 ### WebProxy.py
 ```
 C:\Users\asus\Desktop\lab_solution\Web Proxy>python WebProxy.py 8899

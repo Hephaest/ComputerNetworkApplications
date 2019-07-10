@@ -32,7 +32,7 @@ Table of Contents
 
 English | [中文](README_CN.md)
 
-Last updated on `2019/07/09`
+Last updated on `2019/07/10`
 
 This project is designed to increase your competency in developing socket-based applications.
 # ICMP Ping

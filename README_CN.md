@@ -31,7 +31,7 @@
 [![LICENSE](https://img.shields.io/cocoapods/l/AFNetworking.svg)](https://github.com/Hephaest/ComputerNetworkApplications/blob/master/LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.6.7-%237000FF.svg)](https://www.python.org/downloads/release/python-367/)
 
-[English]((README.md)) | 中文
+[English](README.md) | 中文
 
 最后一次更新于 `2019/07/10`
 

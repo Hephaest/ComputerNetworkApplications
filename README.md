@@ -44,34 +44,37 @@ In practice, we can analyse and determine the network failures by using `ping` c
 Ping traditionally uses **Internet Control Message Protocol** (**ICMP**) messages to measure delay and loss in computer networks: localhost sends echo request messages (with an ICMP type code of 8) in ICMP packets to another host. Once a message has reached that host, it is sent back to the sender. The localhost then unpacks the packet and extract the ICMP type code and match the ID between the request and reply. If the remote host responds with an echo reply message (with an ICMP type code of 0), then we can calculate the period of time elapsed between sending the request and receiving the reply, in turn, accurately determine the network delay between the two hosts.
 
 **Attention**: The structure of IP datagram and ICMP error codes (with an ICMP type code of 3) are shown as follows. Internet checksum is also the important part of the packet but it’s not the core of my function implementations.
+<p align="center"><img src ="images/f1.jpg" width = "500px"></p>
+<p align="center"><img src ="images/f2.jpg"></p>
+
 ## Function Implementations
 Based on the above principles, firstly, I need to create a socket associated with protocol ICMP and set the timeout to control the time socket used to receive a packet.
 ```Python
-# run a privileged TCP socket, 1 is socket module constant associated with protocol ICMP
+# run a privileged TCP socket, 1 is socket module constant associated with protocol ICMP.
 icmp_socket = socket.socket(socket.AF_INET, socket.SOCK_RAW, 1)
 icmp_socket.setsockopt(socket.SOL_SOCKET, socket.SO_RCVTIMEO, timeout)
 ```
-After creating a socket, I need to implement a function to build, pack and send the ICMP packet to the destination host. As code shown, if I want to create a 32-byte size packet, I will only have four byte-length to store payload data. I decided to store the current time frame in float format (4 bytes). However, I will never use this data to calculate the total network delay because of precision loss. "!" means the packet should be resolved by network byte order.
+After creating a socket, I need to implement a function to build, pack and send the ICMP packet to the destination host. As the code is shown, if I want to create a 32-byte size packet, I will only have four byte-length to store payload data. I decided to store the current time frame in float format (4 bytes). However, I will never use this data to calculate the total network delay because of precision loss. "!" means the packet should be resolved by network byte order.
 
 Build and Pack ICMP Packet Source:
 ```Python
 def receive_one_ping(icmp_socket, port_id, timeout, send_time):
     while True:
-        # 1. Wait for the socket to receive a reply
+        # 1. Wait for the socket to receive a reply.
         wait_for_data = select.select([icmp_socket], [], [], timeout)
-        # 2. Once received, record the time
+        # 2. Once received, record the time.
         data_received = time.time()
         rec_packet, addr = icmp_socket.recvfrom(1024)
         ip_header = rec_packet[8: 12]
         icmp_header = rec_packet[20: 28]
         payload_size = struct.calcsize("!f")
-        # 3. Unpack the packet header for useful information
+        # 3. Unpack the packet header for useful information.
         type, code, checksum, id, sequence = struct.unpack("!bbHHh", icmp_header)
-        # 4. Check that the ID matches between the request and reply
-        if type == 0 and id == port_id:  # type should be 0
+        # 4. Check that the ID matches between the request and reply.
+        if type == 0 and id == port_id:  # type should be 0.
             ttl = struct.unpack("!b", ip_header[0:1])[0]
             delay_time = data_received - send_time
-        # 5. Return byte size, latency and TTL
+        # 5. Return byte size, latency and TTL.
             return payload_size * 8, delay_time, ttl
         elif type == 3 and code == 0:
             return 0  # Network unreachable error.
@@ -96,7 +99,7 @@ def ping_statistics(list):
 The last thing I should do is to handle exceptions. I need to handle different ICMP error code and the timeout by the returned value. The code is shown below:
 ```Python
 def ping(host, count_num="4", time_out="1"):
-    # 1. Look up hostname, resolving it to an IP address
+    # 1. Look up a hostname, resolving it to an IP address.
     ip_addr = socket.gethostbyname(host)
     successful_list = list()
     lost = 0
@@ -107,17 +110,17 @@ def ping(host, count_num="4", time_out="1"):
     timeout_start = 0
     head = False
     timedout_mark = False
-    for i in range(count):  # i is value of sequence
-        # Print header
+    for i in range(count):  # i is value of sequence.
+        # Print header.
         ......
         try:
-            # 2. Call doOnePing function
+            # 2. Call doOnePing function.
             ping_delay = do_one_ping(ip_addr, timeout, i)
-            # 3. Print out the returned delay information
-            if ping_delay == 0 or ping_delay == 1:  # ping 10.129.21.147
-                # To get my laptop's IP address
+            # 3. Print out the returned delay information.
+            if ping_delay == 0 or ping_delay == 1:
+                # To get my laptop's IP address.
                 ip_addr = socket.gethostbyname(socket.gethostname())
-                print("Reply from {ipAdrr}: ".format(ipAdrr=ip_addr), end="")
+                print("Reply from {ipAdrr}: ".format(ipAdrr = ip_addr), end = "")
                 result = "Destination host unreachable." if ping_delay == 0 else \
                          "Destination net unreachable."
                 print(result)
@@ -125,25 +128,25 @@ def ping(host, count_num="4", time_out="1"):
             else:
                 bytes, delay_time, ttl = ping_delay[0], int(ping_delay[1] * 1000), \
                                          ping_delay[2]
-                print("Reply from {ipAdrr}: ".format(ipAdrr=ip_addr), end="")
+                print("Reply from {ipAdrr}: ".format(ipAdrr = ip_addr), end = "")
                 # If a packet can be received successfully,
                 # the list could append this delay time.
                 successful_list.append(delay_time)
                 # if delay_time < 1m, then we will get 0 ms.
                 ......
-        except TimeoutError:  # timeout type
+        except TimeoutError:  # timeout type.
             lost += 1
             print("Request timed out.")
             # If it's not always a timeout case,
-            # we might need to calculate the maximum latency
+            # we might need to calculate the maximum latency.
             if timedout_mark is False:
                 timedout_mark = True
-        time.sleep(1)  # Every second
-    #  4. Continue this process until stopped
+        time.sleep(1)  # Every second.
+    #  4. Continue this process until stopped.
     ......
 ```
 ## Result
-```Python
+```
 C:\Users\asus\Desktop\lab_solution\ICMP Ping>ICMPPing.py>ping www.baidu.com
 Pinging www.baidu.com [111.13.100.92] with 32 of data:
 Reply from 111.13.100.92: bytes = 32 time = 28ms TTL = 51.
@@ -200,7 +203,9 @@ to measure latency between the host and each hop along the route to a destinatio
 traceroute can find the routers between the source and destination host and how long it takes to
 reach each router.
 ## Principle
-As Figure is shown, source host uses an ICMP echo request message, but with an important modification:
+<p align="center"><img src ="images/f3.jpg"></p>
+
+As Figure is shown, the source host uses an ICMP echo request message, but with an important modification:
 the **Time To Live** (**TTL**) value is initially set to 1. This ensures that we get a response from
 the first hop. The TTL counter is decremented once the message arrives router. When TTL reaches
 0, the message is returned to the source host with an ICMP type of 11 ( TTL has been exceeded
@@ -214,7 +219,7 @@ Based on above principles, firstly, except create a socket associated with proto
 a timeout to control the time socket used to receive a packet, I need to set the TTL of the socket by
 `socket.setsockopt(level, optname, value)` function.
 ```Python
-client_socket = socket.socket(socket.AF_INET, socket.SOCK_RAW, 1) # ICMP
+client_socket = socket.socket(socket.AF_INET, socket.SOCK_RAW, 1) # ICMP.
 client_socket.setsockopt(socket.SOL_SOCKET, socket.SO_RCVTIMEO , time_out)
 client_socket.setsockopt(socket.IPPROTO_IP, socket.IP_TTL, struct.pack('I', ttl))
 ```
@@ -230,20 +235,20 @@ shown below:
 ```Python
 def receive_one_trace(icmp_socket, send_time, timeout):
     try:
-        # 1. Wait for the socket to receive a reply
+        # 1. Wait for the socket to receive a reply.
         ... Similar to Receive Packet Source ...
-        # 2. Once received, record the time
+        # 2. Once received, record the time.
         rec_packet, retr_addr = icmp_socket.recvfrom(1024)
-        # 3. Unpack the packet header for useful information
+        # 3. Unpack the packet header for useful information.
         ... Similar to Receive Packet Source ...
-        # 4. Check whether packet loss or not by its type and code
+        # 4. Check whether packet loss or not by its type and code.
         ... Similar to Receive Packet Source ...
     except TimeoutError :
-        print_str = "*   "  # timeout
+        print_str = "*   "  # timeout.
     finally:
-        ..... # Print the latency
-    # return IP address of the current node
-    # If request timeout, just return the string
+        ..... # Print the latency.
+    # return IP address of the current node.
+    # If request timeout, just return the string.
     try:
         retre_ip = retr_addr[0]
     except IndexError:
@@ -256,8 +261,8 @@ addresses found in the responses to their respective hostname and handle excepti
 shown below:
 ```Python
 def trace_route(host, timeout=2):
-    # Configurable timeout, set using an optional argument
-    # 1. Look up host name, resolve it to an IP address
+    # Configurable timeout, set using an optional argument.
+    # 1. Look up host name, resolve it to an IP address.
     ip_addr = socket.gethostbyname(host)
     ttl = 1
     print("Over a maximum of {max_hop} hops:\n".format(max_hop = MAX_HOP))
@@ -275,7 +280,7 @@ def trace_route(host, timeout=2):
     sys.stdout.write("\nTrace complete.\n\n")
 ```
 ## Result
-```Python
+```
 Over a maximum of 30 hops:
     Tracing route to www.baidu.com [111.13.100.91]:
     1 16 ms 15 ms 15 ms 10.129.0.1
@@ -315,28 +320,31 @@ disk. If it successfully finds the object in the hard disk, it sent the object b
 appropriate header (which will contain the Status-Code 200). Else, it will send the "Not Found"
 web page to the client with HTTP response message (which will contain 404 Not Found" status
 line)". HTTP request and response message format are shown in Figure 5.(a) and Figure 5.(b).
+<p align="center"><img src ="images/f4.jpg" width = "600px"></p>
+<p align="center"><img src ="images/f5.png" width = "600px"></p>
+
 ## Function Implementations
 Based on the above principles, firstly, create a socket which could support IPv4 and bind to a
 high numbered port above 1024. The Web Server is expected to listen to 5 requests at the same
-time and has a capable of handling multiple concurrent connections. 
+time and has a capacity of handling multiple concurrent connections. 
 
 Web Server Run Source:
 ```Python
 def start_server(server_port , server_address):
-    # Binding the Web Server to a configurable port, defined as an optional argument
+    # Binding the Web Server to a configurable port, defined as an optional argument.
     # 1# 1. Create server socket
-    server_socket = socket(AF_INET, SOCK_STREAM) #IPv4
-    # 2# 2. Bind the server socket to server address and server port
+    server_socket = socket(AF_INET, SOCK_STREAM) #IPv4.
+    # 2# 2. Bind the server socket to server address and server port.
     server_socket.bind(("", server_port))
-    # 3# 3. Continuously listen for connections to server socket
+    # 3# 3. Continuously listen for connections to server socket.
     server_socket.listen(5)
     while True:
-        # 4. When a connection is accepted, call handleRequest function, passing new connection socket
+        # 4. When a connection is accepted, call handleRequest function, passing new connection socket.
         connection_socket , (client_ip, client_port) = server_socket.accept()
-        # Create a multithreaded server implementation , capable of handling multiple concurrent connections
+        # Create a multithreaded server implementation, capable of handling multiple concurrent connections.
         start_new_thread(handle_request , (connection_socket , client_ip, client_port))
      # 5. Close server socket
-     server_socket.close() # server is always waiting and never close
+     server_socket.close() # The server is always waiting and never close.
 
  # Start here
  server_port = int(sys.argv[1])
@@ -369,44 +377,44 @@ class StrProcess(str):
 The last thing is to handle the HTTP GET request and exceptions. I don’t need to write while true
 loop to receive the HTTP request message because of non-persistent HTTP. If the socket receives
 an empty message it should be closed. Otherwise, Web Server needs to check out whether the object
-exists in cache or not. If the object exists then send the object to thr client with "HTTP/1.1 200
+exists in cache or not. If the object exists then send the object to the client with "HTTP/1.1 200
 OK\r\n\r\n", else "FileNotFoundError" exception happens then send the "Not Found" HTML
-file to the client with "HTTP/1.1 404 Not Found\r\n\r\n". After sending HTTP response message,
-HTTP server close the TCP connection. The code is shown below:
+file to the client with "HTTP/1.1 404 Not Found\r\n\r\n". After sending an HTTP response message,
+the HTTP server closes the TCP connection. The code is shown below:
 ```Python
 def handle_request(tcp_socket, client_ip, client_port):
-    print("Client ({ip}: {port}) is coming...".format(ip=client_ip, port=client_port))
+    print("Client ({ip}: {port}) is coming...".format(ip = client_ip, port = client_port))
     try:
-        # 1. Receive request message from the client on connection socket
+        # 1. Receive request message from the client on the connection socket.
         msg = tcp_socket.recv(1024).decode()
         if not msg:
             print("Error! server receive empty HTTP request.")
             tcp_socket.close()
-        # Create new object (handlestr) from strProc class
+        # Create a new object (handlestr) from strProc class.
         handle_str = StrProcess(msg)
-        # 2. Extract the path of the requested object from the message (second part of the HTTP header)
+        # 2. Extract the path of the requested object from the message (the second part of the HTTP header).
         file_name = handle_str.split_str()[1:]
-        # 3. Find the corresponding file from disk
-        # Check whether the requested object exists or not
+        # 3. Find the corresponding file from disk.
+        # Check whether the requested object exists or not.
         f = open(file_name)
         f.close()
-        # If object exists, ready to send "HTTP/1.1 200 OK\r\n\r\n" to the socket
+        # If object exists, ready to send "HTTP/1.1 200 OK\r\n\r\n" to the socket.
         status = "200 OK"
     except FileNotFoundError:
-        # Else, ready to send "HTTP/1.1 404 Not Found\r\n\r\n" to the socket
+        # Else, ready to send "HTTP/1.1 404 Not Found\r\n\r\n" to the socket.
         status = "404 Not Found"
         file_name = "NotFound.html"
     re_header = "HTTP/1.1 " + status + "\r\n\r\n" #the last''\r\n'' means the end of header lines.
     # 4. Send the correct HTTP response
     tcp_socket.send(re_header.encode())
-    # 5. Store in temporary buffer
+    # 5. Store in a temporary buffer
     with open(file_name, 'rb') as f:
         file_content = f.readlines()
     # 6. Send the content of the file to the socket
     for strline in file_content:
         tcp_socket.send(strline)
     # 7. Close the connection socket
-    print("Bye to Client ({ip}: {port})".format(ip=client_ip, port=client_port))
+    print("Bye to Client ({ip}: {port})".format(ip = client_ip, port = client_port))
     tcp_socket.close()
 ```
 I write a separately HTTP client to query the Web Server. This client can send HTTP GET request
@@ -421,10 +429,10 @@ import sys
 # 1. Set the web server's address
 host_port = int(sys.argv[1])
 host_address = gethostbyname(gethostname())
-# 2. Create client socket to initiate TCP connection to web server
+# 2. Create client socket to initiate TCP connection to the web server.
 tcp_client = socket(AF_INET, SOCK_STREAM)
 tcp_client.connect((host_address , host_port))
-# 3. Enter the file client want to query the web server
+# 3. Enter the file client want to query the web server.
 print("Hello, which document do you want to query?")
 while True:
     obj = input("I want to query: ")
@@ -438,19 +446,19 @@ while True:
               "Accept-Language: zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7\r\n\r\n"
     tcp_client.send(message.encode())
     while True:
-        # 5. Receive HTTP response message and print it to the console
+        # 5. Receive HTTP response message and print it to the console.
         data = tcp_client.recv(1024)
         if not data:
             break
         print("Web server responded to your request:")
         print(data.decode())
-    tcp_client.close() # close current connection
-    # 6. ask the client whether it wants to continue
+    tcp_client.close() # close current connection.
+    # 6. ask the client whether it wants to continue.
     ans = input('\nDo you want to cut this connection(y/n) :')
     if ans == 'y' or ans == 'Y':
         break
     elif ans == 'n' or ans == 'N':
-        # Try again
+        # Try again.
         print("Anything else I can help you?")
         tcp_client = socket(AF_INET, SOCK_STREAM)
         tcp_client.connect((host_address , host_port))
@@ -460,7 +468,7 @@ while True:
 ```
 ## Result
 ### WebServer.py
-```Python
+```
 you can test the web server by accessing: http://10.129.34.15:8899/hello.html
 Wait for TCP clients...
 Client (10.129.34.15: 6123) is coming...
@@ -473,7 +481,7 @@ Hello, which document do you want to query?
 I want to query: hello.html
 ```
 ### Client.py
-```Python
+```
 Web server responded to your request:
 HTTP/1.1 200 OK
 Web server responded to your request:
@@ -511,17 +519,19 @@ from a client and extracts the method type from the request line.
 object exists in cache or not. Otherwise, the Web Proxy will forward the client’s request to
 the web server. The web server will then generate a response message and deliver it to the
 proxy server, which in turn sends it to the client and caches a copy for future requests.
-- If the method type is **DELETE**, the Web Proxy also need to check out firstly. If the object
+- If the method type is **DELETE**, the Web Proxy also need to check out first. If the object
 exists, just delete it from the cache and send the HTTP response message with Status-Code
 200. Otherwise, the Web Proxy sends the HTTP response message with Status-Code 404.
 - If method is **POST**, the handling process is easier than above method types, the Web Proxy
 just write the object to disk in binary format and then send the HTTP response message with
-Status-Code 200 (input is upload in entity body). If method is PUT, only need to return true
-in entity body.
+Status-Code 200 (input is upload in entity body). If the method is PUT, only need to return true
+in the entity body.
 - If the method type is **HEAD**, the Web Proxy only send the status line and header lines of
 HTTP response message back.
 
 The simplified process is shown as follows.
+<p align="center"><img src ="images/f6.png"></p>
+
 ## Function Implementations
 Based on the above principles, firstly, create a socket which could support IPv4 and bind to a
 high numbered port above 1024. The Web Proxy is similar to the Web Server except for single threaded.
@@ -557,7 +567,7 @@ class StrProcess(str):
         return self.split_str()[0]
 
     def get_body(self):
-        """Extract entity body from HTTP request message body."""
+        """Extract the entity body from HTTP request message body."""
         body_start = self.str.find('\r\n\r\n') + 4
         return self.str[body_start:]
 
@@ -605,34 +615,34 @@ Handle HTTP Request Source:
 ```Python
 def start_listen(tcp_socket, client_ip, client_port):
 
-    # 1. Receive request message from the client on connection socket
+    # 1. Receive request message from the client on connection socket.
     message = tcp_socket.recv(1024).decode()
-    # Create new object (handle_str) from StrProcess class
+    # Create a new object (handle_str) from StrProcess class.
     handle_str = StrProcess(message)
-    print("client is coming: {addr}:{port}".format(addr=client_ip, port=client_port))
+    print("client is coming: {addr}:{port}".format(addr = client_ip, port = client_port))
     file_error = False
     global host
     try:
         command = handle_str.get_cmd_type()
-        # 2. Extract the path of the requested object from the message (second part of the HTTP header)
+        # 2. Extract the path of the requested object from the message (second part of the HTTP header).
         filename = handle_str.change_name()
-        # 3. Find the specific method type and handle the request
+        # 3. Find the specific method type and handle the request.
         if command == "DELETE" :
-            # Delete the object if it exists in cache
+            # Delete the object if it exists in the cache.
             os.remove("./Cache/" + filename)
             tcp_socket.send(b"HTTP/1.1 200 OK\r\n\r\n")
             print("File is removed.")
         elif command == "GET" or command == "HEAD":
             print("Client want to {c} the {o}.".format(c=command, o=filename))
-            # Check whether the requested object exists or not
+            # Check whether the requested object exists or not.
             f = open("./Cache/" + filename, "rb")
             file_content = f.readlines()
             f.close()
             if command == "GET":
                 print("File in cache!")
-                # Find the corresponding file from disk if it exists
+                # Find the corresponding file from disk if it exists.
                 for i in range(0, len(file_content)):
-                    tcp_socket.send(file_content[i])  # Send HTTP response message
+                    tcp_socket.send(file_content[i])  # Send HTTP response message.
             else:  # "HEAD" method
                 list_to_str = ""
                 for i in range(0, len(file_content)):
@@ -640,7 +650,7 @@ def start_listen(tcp_socket, client_ip, client_port):
                 HTTP_header_end = list_to_str.find("\r\n\r\n")
                 # Only send HTTP response message header lines
                 tcp_socket.send(list_to_str[:HTTP_header_end+4].encode())
-        elif command == "PUT" or command == "POST":  # Only implement upload files
+        elif command == "PUT" or command == "POST":  # Only implement upload files.
             f = open("./Cache/" + filename, "ab")
             f.write(b"HTTP/1.1 200 OK\r\n\r\n" + handle_str.get_body().encode())
             f.close()
@@ -650,22 +660,22 @@ def start_listen(tcp_socket, client_ip, client_port):
             tcp_socket.send(body_re)
         else:
             tcp_socket.send(b"HTTP/1.1 400 Bad Request\r\n\r\n")
-    # 4. If file doesn't exist in the cache, handle exceptions
+    # 4. If the file doesn't exist in the cache, handle exceptions.
     except (IOError, FileNotFoundError):
         if command == "GET":
-            # Create a socket on the proxyserver
+            # Create a socket on the proxy server
             c = socket(AF_INET, SOCK_STREAM)
             hostname = handle_str.get_hostname()
             file = handle_str.split_str()[1]
             print("File isn't in the cache!")
             try:
-                # Connect to the socket at port 80
+                # Connect to the socket at port 80.
                 c.connect((hostname, 80))
-                host = hostname  # record the real hostname
+                host = hostname  # record the real hostname.
                 request = "GET " + "http:/" + file + " HTTP/1.1\r\n\r\n"
             except:
                 try:
-                    # Need to use the global host or referer hostname
+                    # Need to use the global host or referer hostname.
                     new_host = handle_str.get_referer() if host == "" else host
                     c.connect((new_host, 80))
                     request = "GET " + "http://" + new_host + file + " HTTP/1.1\r\n\r\n"
@@ -678,11 +688,11 @@ def start_listen(tcp_socket, client_ip, client_port):
                     file_error = True
             if file_error is False:
                 c.sendall(request.encode())
-                # Read the response into buffer
+                # Read the response into the buffer.
                 print("proxyserver have found the host.")
                 # Create a new file in the cache for the requested file.
                 # Also send the response in the buffer to client socket
-                # and the corresponding file in the cache
+                # and the corresponding file in the cache.
                 writeFile = open("./Cache/" + filename, "wb")
                 print("Poxy server is receiving data...")
                 # Receive HTTP response message until all messages are received.
@@ -691,7 +701,7 @@ def start_listen(tcp_socket, client_ip, client_port):
                     if not data:
                         break
                     sys.stdout.write(">")
-                    # Send the content of the file to the socket
+                    # Send the content of the file to the socket.
                     tcp_socket.sendall(data)
                     writeFile.write(data)
                 writeFile.close()
@@ -700,21 +710,22 @@ def start_listen(tcp_socket, client_ip, client_port):
         elif command == "DELETE":
             tcp_socket.send(b"HTTP/1.1 204 Not Content\r\n\r\n")
     except (ConnectionResetError, TypeError):
-        print("Bye to client: {addr}:{port}".format(addr=client_ip, port=client_port))
+        print("Bye to client: {addr}:{port}".format(addr = client_ip, port = client_port))
     # Close the client socket
     print("tcp socket closed\n")
     tcp_socket.close()
 ```
 ## Result
 ### Browser Test
+<p align="center"><img src ="images/f7.jpg"></p>
+
 ### WebProxy.py
-```Python
+```
 C:\Users\asus\Desktop\lab_solution\Web Proxy>python WebProxy.py 8899
 Wait for TCP clients...
 wait for request:
 client is coming: 127.0.0.1:4596
-Client want to GET the s-wd-facebook-rsv_bp-0-ch-tn-baidu-bar-rsv_spt-3-ie-
-utf-8-rsv_enter-1-oq-face-f-3-inputT-3356.
+Client want to GET the s-wd-facebook-rsv_bp-0-ch-tn-baidu-bar-rsv_spt-3-ie-utf-8-rsv_enter-1-oq-face-f-3-inputT-3356.
 File is not in the cache!
 proxyserver have found the host.
 Poxy server is receiving data...

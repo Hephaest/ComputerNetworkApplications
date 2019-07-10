@@ -614,7 +614,7 @@ def start_listen(tcp_socket, client_ip, client_port):
             c = socket(AF_INET, SOCK_STREAM)
             hostname = handle_str.get_hostname()
             file = handle_str.split_str()[1]
-            print("File isn't in the cache!")
+            print("The file isn't in the cache!")
             try:
                 # 连接到端口80的套接字。
                 c.connect((hostname, 80))
@@ -636,11 +636,11 @@ def start_listen(tcp_socket, client_ip, client_port):
             if file_error is False:
                 c.sendall(request.encode())
                 # 将响应读入缓冲区。
-                print("proxyserver have found the host.")
+                print("The proxy server have found the host.")
                 # 在缓存中为请求的文件创建一个新文件。
                 # 此外，将缓冲区中的响应发送到客户端套接字和缓存中的相应文件。
                 writeFile = open("./Cache/" + filename, "wb")
-                print("Poxy server is receiving data...")
+                print("The proxy server is receiving data...")
                 # 接受 HTTP 响应报文直到所有报文都被接收。
                 while True:
                     data = c.recv(4096)
@@ -672,9 +672,9 @@ Wait for TCP clients...
 wait for request:
 client is coming: 127.0.0.1:4596
 Client want to GET the s-wd-facebook-rsv_bp-0-ch-tn-baidu-bar-rsv_spt-3-ie-utf-8-rsv_enter-1-oq-face-f-3-inputT-3356.
-File is not in the cache!
-proxyserver have found the host.
-Poxy server is receiving data...
+The file is not in the cache!
+The proxy server have found the host.
+The proxy server is receiving data...
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>100%
 tcp socket closed
 ```

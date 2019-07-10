@@ -694,7 +694,7 @@ def start_listen(tcp_socket, client_ip, client_port):
                 # Also send the response in the buffer to client socket
                 # and the corresponding file in the cache.
                 writeFile = open("./Cache/" + filename, "wb")
-                print("The poxy server is receiving data...")
+                print("The proxy server is receiving data...")
                 # Receive HTTP response message until all messages are received.
                 while True:
                     data = c.recv(4096)
@@ -728,7 +728,7 @@ client is coming: 127.0.0.1:4596
 Client want to GET the s-wd-facebook-rsv_bp-0-ch-tn-baidu-bar-rsv_spt-3-ie-utf-8-rsv_enter-1-oq-face-f-3-inputT-3356.
 The file is not in the cache!
 The proxy server have found the host.
-The poxy server is receiving data...
+The proxy server is receiving data...
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>100%
 tcp socket closed
 ```

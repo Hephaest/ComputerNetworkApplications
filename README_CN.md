@@ -5,24 +5,24 @@
       * [目的](#目的)
       * [原理](#原理)
       * [函数实现](#函数实现)
-      * [Result](#result)
+      * [输出结果](#输出结果)
    * [路由追踪](#路由追踪)
       * [目的](#目的-1)
       * [原理](#原理-1)
       * [函数实现](#函数实现-1)
-      * [Result](#result-1)
+      * [输出结果](#输出结果-1)
    * [Web服务器](#web服务器)
       * [目的](#目的-2)
       * [原理](#原理-2)
       * [函数实现](#函数实现-2)
-      * [Result](#result-2)
+      * [输出结果](#输出结果-2)
          * [WebServer.py](#webserverpy)
          * [Client.py](#clientpy)
    * [Web代理服务器](#web代理服务器)
       * [目的](#目的-3)
       * [原理](#原理-3)
       * [函数实现](#函数实现-3)
-      * [Result](#result-3)
+      * [输出结果](#输出结果-3)
          * [Browser Test](#browser-test)
          * [WebProxy.py](#webproxypy)
 
@@ -147,7 +147,7 @@ def ping(host, count_num="4", time_out="1"):
     #  4. 继续执行直到结束。
     ......
 ```
-## Result
+## 输出结果
 ```
 C:\Users\asus\Desktop\lab_solution\ICMP Ping>ICMPPing.py>ping www.baidu.com
 Pinging www.baidu.com [111.13.100.92] with 32 of data:
@@ -265,7 +265,7 @@ def trace_route(host, timeout=2):
         ttl += 1
     sys.stdout.write("\nTrace complete.\n\n")
 ```
-## Result
+## 输出结果
 ```
 Over a maximum of 30 hops:
     Tracing route to www.baidu.com [111.13.100.91]:
@@ -431,7 +431,7 @@ while True:
         print("Command Error, quit.")
         break
 ```
-## Result
+## 输出结果
 ### WebServer.py
 ```
 you can test the web server by accessing: http://10.129.34.15:8899/hello.html
@@ -661,7 +661,7 @@ def start_listen(tcp_socket, client_ip, client_port):
     print("tcp socket closed\n")
     tcp_socket.close()
 ```
-## Result
+## 输出结果
 ### Browser Test
 <p align="center"><img src ="images/f7.jpg"></p>
 

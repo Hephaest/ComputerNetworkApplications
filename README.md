@@ -37,7 +37,7 @@ Last updated on `2019/07/10`
 This project is designed to increase your competency in developing socket-based applications.
 # ICMP Ping
 ## Purpose
-This task is to recreate the ping client discussed in Lecture 3: Delay, Loss & Throughput. 
+This task is to recreate the ping client discussed in **Lecture 3: Delay, Loss & Throughput**. 
 Ping is a tool used to measure delay and loss in computer networks. 
 In practice, we can analyse and determine the network failures by using `ping` command. Also, we can choose the best proxy server based on the ping results of different IP addresses.
 ## Principle
